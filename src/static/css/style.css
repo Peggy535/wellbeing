@@ -189,6 +189,9 @@ video {
     grid-row-gap: 0px;
     height:100vh;
 }
+ul {
+    list-style: none;
+}
 .logo {
     grid-area: 1 / 1 / 3 / 3;
     padding: 1em;
