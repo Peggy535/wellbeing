@@ -141,22 +141,25 @@ h3{font-size:var(--step-4)}
 h4{font-size:var(--step-3)}
 h5{font-size:var(--step-2)}
 h6{font-size:var(--step-1)}
-
 p, ul, ol, nav {
     font-size:var(--step-0);
     font-weight: 1;
 }
 hr {
-    height: 2px;
-    background-color: var(--black);
+
 }
-li a {
-    color: var(--black) !important;
+ul {
+    list-style: none;
 }
-button {
-    width: 20vw;
-    margin-top: 20px;
+a {
+    text-decoration: none;
+    color: var(--black);
 }
+a:hover {
+    transition: 0.5s;
+    color: var(--persimmon);
+}
+
 /* || Landing Page CSS Grid Specific */
 video { 
     position: absolute;
@@ -171,7 +174,7 @@ video {
 .overlay::before {
     content:"";
     background: var(--white);
-    opacity: 0.6;
+    opacity: 0.7;
     position: absolute;
     z-index: -5;
     top:0;
@@ -192,28 +195,98 @@ video {
         "logo . . menu"
         ". . statement statement"
 }
-ul {
-    list-style: none;
-}
 .logo {
     grid-area: logo;
     padding: 5em;
 }
 .logo img {
-    width: 15vw;
+    width: 20vw;
 }
 .statement {
     grid-area: statement;
-    color: var(--black);
-    padding: 1em;
+    color: var(--persimmon);
+    padding-right: 1em;
     align-self: center;
     justify-self: end;
 }
-.statement h3 {
+.statement h2 {
     padding: 0.2em;
-
 }
 .menu {
     grid-area: menu;
-    padding: 2em;
+    padding: 2em 2em;
+}
+.blockquote {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+    "block";
+    margin: 6em 0;
+}
+.innerBlock {
+    grid-area: block;
+    background: var(--persimmon);
+    color: var(--white);
+    opacity: 0.8;
+}
+.innerBlock h4,
+.innerBlock footer{
+    padding: 1em 1em;
+}
+.intro{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas: 
+        ". intro ."
+}
+.introText{
+    grid-area: intro;
+    color: var(--black);
+    padding: 0.5em;
+    margin: 5em 0;
+}
+.baseHome{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 2fr auto-fill;
+    grid-template-areas:
+    ". baseLink";
+    margin: 6em 0; 
+}
+.innerHome{
+    grid-area: baselink;
+    justify-content: start;
+}
+@media (max-width: 700px){
+    .landing {
+        height: 100vh;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-areas: 
+            "logo menu"
+            "statement statement"
+    }
+    .logo {
+        padding: 1.5em;
+    }
+    .statement{
+        padding-left: 2em;
+        justify-self: start;
+    }
+    .blockquote {
+        margin: 3em 0;
+    }
+    .intro{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "intro";
+    }
+    .introText{
+        padding: 1em 1em;
+    }
+    .introText h5,
+    .innerHome h6{
+        font-size: var(--step-0);
+    }
 }
