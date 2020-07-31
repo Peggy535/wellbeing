@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "text": "Home",
+            "url": "/"
+        },
+        {
+            "text": "CBT",
+            "url": "/cbt/"
+        },
+        {
+            "text": "Hypnotherapy",
+            "url": "/hypnotherapy/"
+        },
+        {
+            "text": "Yin Yoga Therapy",
+            "url": "/yin-yoga-therapy/"
+        },
+        {
+            "text": "Services",
+            "url": "/services/"
+        },
+        {
+            "text": "Contact me",
+            "url": "/contact-me/"
+        }
+    ]
+}

@@ -9,18 +9,8 @@
 </div>
 <main class="wrapper-main">
     <div class="landing">
-        <div class="logo">
-            <img src="/static/images/jh.svg" alt="">
-        </div>
-        <div class="menu">
-            <ul>
-                <li>CBT</li>
-                <li>Hypnotherapy</li>
-                <li>Yin Yoga Therapy</li>
-                <li>Mental Health & Wellbeing</li>
-                <li>Contact me</li>
-            </ul>
-        </div>
+        {% include "partials/logo.html" %}
+        {% include "partials/menu.html" %}
         <div class="statement">
             <h3>Justine Hodgson<br>Hypnotherapy<br>& Wellbeing Expert</h3>
         </div> 
@@ -39,7 +29,7 @@
 </div>
 <div class="baseHome">
     <div class="innerHome">
-        <a href="/services.html" alt="">
+        <a href="/services/" alt="">
             <h6>Discover more about me and my services.</h6>
         </a>
     </div>

@@ -95,11 +95,11 @@
     --step-6: calc(((var(--fluid-min-size-6) * 1rem) + (var(--fluid-max-size-6) - var(--fluid-min-size-6)) * var(--fluid-bp)));
 
     /*Defined colour palette for project*/
-    --lemon-yellow-crayola: #fdffb6ff;
-    --celadon: #a7e8bdff;
-    --black: hsla(0, 0%, 0%, 1);
-    --white: hsla(0, 0%, 100%, 1);
-    --persimmon: #e55812ff;
+    --lemon-yellow-crayola: #fdffb6;
+    --celadon: #a7e8bd;
+    --black: #000000;
+    --white: #ffffff;
+    --persimmon: #e55812;
 
     /*font variable declarations*/
     --font-Light:'Domaine-Sans-Light';
@@ -161,7 +161,7 @@ a:hover {
 }
 
 /* || Landing Page CSS Grid Specific */
-video { 
+video#landing { 
     position: absolute;
     top: 0;
     left: 0;
@@ -230,7 +230,9 @@ video {
     opacity: 0.8;
 }
 .innerBlock h4,
-.innerBlock footer{
+.innerBlock h6,
+.innerBlock footer,
+.innerBlock-services footer{
     padding: 1em 1em;
 }
 .intro{
@@ -258,6 +260,130 @@ video {
     grid-area: baselink;
     justify-content: start;
 }
+
+/* Services */
+.wrapper-services {
+    display: grid;
+    grid-gap: 20px;
+}
+.landing-head {
+    height: auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: 
+    "logo . . menu";
+}
+.landingTitle {
+    padding: 1em 2em;
+    background: var(--celadon);
+}
+.blockquote-services {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas:
+        "blank blockServices blank";
+    margin-top: 6em;
+    height: auto;
+}
+.innerBlock-services {
+    height: auto;
+    grid-area: blockServices;
+    padding: 2rem 2rem;
+    background: var(--persimmon);
+    color: var(--white);
+}
+.journeyBlock {
+    display: grid;
+    grid-gap: 20px;
+}
+.innerJourneyBlock {
+    height: auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 3fr 2fr;
+    grid-template-areas:
+    "paragraph videoMessage"
+}
+.innerText {
+    grid-area: paragraph;
+    margin: 2em 2em;
+    padding: 1em;
+    align-self: center;
+    line-height: 1.7;
+}
+.innerVideo {
+    justify-self: center;
+    grid-area: videoMessage;
+    margin: 2em 2em;
+}
+.magazineStyle,
+.magazineStyle-reverse {
+    display: grid;
+    grid-gap: 20px;
+}
+.innerMagazineStyle-reverse {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas:
+    "magText magImg";
+}
+.innerMagazineStyle {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas:
+    "magImg magText";
+}
+.magazinePic {
+    grid-area: magImg;
+    grid-gap: 10px;
+}
+.magazinePic img {
+    width: 100%;
+}
+.magazineText {
+    grid-area: magText;
+    margin: 2em 2em;
+    line-height: 1.6;
+    align-self: center;
+}
+.servicesHeading {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+    background: var(--lemon-yellow-crayola);
+    padding: 1em 2em;
+}
+/* Therapies/cards */
+.therapies{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    align-items: center;
+}
+.therapies > ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1rem;
+}
+.therapies > ul > li {
+    border: 1px solid #000000;
+    border-radius: .5rem;
+    padding: 20px;
+}
+.therapies > ul > li > figure {
+    height: auto;
+    overflow: hidden;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    position: relative;
+}
+.therapies > ul > li > figure > img {
+    width: 100%;
+}
+
 @media (max-width: 700px){
     .landing {
         height: 100vh;
@@ -288,5 +414,23 @@ video {
     .introText h5,
     .innerHome h6{
         font-size: var(--step-0);
+    }
+    .landing-head {
+        grid-template-areas: "logo menu";
+    }
+    .blockquote-services {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "blockServices";
+        margin-top: 6em;
+    }
+    .innerJourneyBlock {
+        height: auto;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "videoMessage"
+        "paragraph"
     }
 }

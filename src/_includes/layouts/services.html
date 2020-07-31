@@ -1,0 +1,76 @@
+{% extends "layouts/base.html" %} 
+
+{% block content %}
+<section class="wrapper-services">
+    <div class="landing-head">
+        {% include "partials/logo.html" %}
+        {% include "partials/menu.html" %}
+    </div>
+    <div class="landingTitle">
+        <h3>{{ services.title1 }}</h3>
+    </div>
+</section>
+<article class="blockquote-services">
+    <div class="innerBlock-services">
+        <h6>{{ services.para1 }}</h6>
+        <footer>- Justine Hodgson</footer>
+    </div>
+</article>
+<article class="journeyBlock">
+    <div class="innerJourneyBlock">
+        <div class="innerText">
+            <p>{{ services.para2 }}</p>
+        </div>
+        <div class="innerVideo">
+            <video width="300" height="375" controls>
+                <source src="https://res.cloudinary.com/peggy-co/video/upload/c_scale,w_300/v1593601416/12%20Steps%20The%20Curative%20Hypno/welcome_mess_a02ez5.mp4" type="video/mp4">
+                <source src="https://res.cloudinary.com/peggy-co/video/upload/c_scale,w_300/v1593601416/12%20Steps%20The%20Curative%20Hypno/welcome_mess_a02ez5.webm" type="video/webm">
+                Your browser does not support the video tag.
+            </video>   
+        </div>
+    </div>
+</article>
+<section>
+    <article class="magazineStyle">
+        <div class="innerMagazineStyle">
+            <div class="magazinePic">
+                <img src="https://res.cloudinary.com/peggy-co/image/upload/v1596119487/Well%20Being/journey_eaxuxe.jpg" alt="">
+            </div>
+            <div class="magazineText">
+                <p>{{ services.para3 }}</p>
+            </div>
+        </div>
+    </article>
+</section>
+<section>
+    <article class="magazineStyle-reverse">
+        <div class="innerMagazineStyle-reverse">
+            <div class="magazineText">
+                <p>{{ services.para4 }}</p>
+            </div>
+            <div class="magazinePic">
+                <img src="https://res.cloudinary.com/peggy-co/image/upload/v1596125701/Well%20Being/lady-field.min_jidrzu.jpg" alt="">
+            </div>
+        </div>
+    </article>
+</section>
+<section>
+    <div class="servicesHeading">
+        <h3>JH - Services</h3>
+    </div>
+</section>
+<section class="therapies" id="therapies">
+    <ul>
+        {% for service in therapies.jhservices %}
+            <li>
+                <figure>
+                    <img src="{{ service.image }}" alt="">
+                    <figcaption><p>{{ service.title }}</p></figcaption>
+                </figure>
+                <p>{{ service.description }}</p>
+                <a href="#">Learn more</a>
+            </li>
+        {% endfor %}
+    </ul>
+</section>
+{% endblock %}
