@@ -127,6 +127,7 @@ html{
 body {
     background-size: cover;
     text-decoration: none;
+    line-height: 1;
 }
 footer,header,main,nav,section{display:block}
 
@@ -149,7 +150,9 @@ hr {
 
 }
 ul {
-    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 a {
     text-decoration: none;
@@ -354,28 +357,51 @@ video#landing {
 }
 /* Therapies/cards */
 .therapies{
-    padding: 2rem;
-    align-items: center;
+    margin: 1em 1em;
 }
 .therapies > ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 20px;
+    grid-gap: 1rem;
 }
 .therapies > ul > li {
     border: 1px solid #000000;
     border-radius: .5rem;
-    padding: 20px;
+    justify-self: start;
 }
 .therapies > ul > li > figure {
     height: auto;
     overflow: hidden;
-    border-top-left-radius: .5rem;
-    border-top-right-radius: .5rem;
+    border-radius: 0.5rem;
     position: relative;
+    margin: 0;
 }
 .therapies > ul > li > figure > img {
     width: 100%;
+}
+.therapies > ul > li > p {
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 1rem .75rem;
+}
+.therapies > ul > li > figure > figcaption > h6 {
+    padding: 0.5rem 0.5rem;
+}
+.therapies > ul > li > a {
+    padding: .5rem 1rem;
+    margin: .5rem;
+    color: var(--black);
+    text-decoration: none;
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: .25rem;
+    text-align: center;
+    display: inline-block;
+    transition: all 0.4s;
+}
+.therapies > ul > li > a:hover {
+    background-color: var(--white);
+    color: var(--black);
 }
 
 @media (max-width: 700px){

@@ -59,13 +59,13 @@
         <h3>JH - Services</h3>
     </div>
 </section>
-<section class="therapies" id="therapies">
+<section class="therapies">
     <ul>
         {% for service in therapies.jhservices %}
             <li>
                 <figure>
                     <img src="{{ service.image }}" alt="">
-                    <figcaption><p>{{ service.title }}</p></figcaption>
+                    <figcaption><h6>{{ service.title }}</h6></figcaption>
                 </figure>
                 <p>{{ service.description }}</p>
                 <a href="#">Learn more</a>
