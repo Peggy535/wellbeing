@@ -5,6 +5,10 @@
             "url": "/"
         },
         {
+            "text": "JH & Services",
+            "url": "/services/"
+        },
+        {
             "text": "CBT",
             "url": "/cbt/"
         },
@@ -13,12 +17,16 @@
             "url": "/hypnotherapy/"
         },
         {
+            "text": "Mental Health & Well Being",
+            "url": "/mental-health-and-wellbeing/"
+        },
+        {
             "text": "Yin Yoga Therapy",
             "url": "/yin-yoga-therapy/"
         },
         {
-            "text": "Services",
-            "url": "/services/"
+            "text": "Booking",
+            "url": "/booking/"
         },
         {
             "text": "Contact me",

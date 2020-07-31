@@ -23,8 +23,8 @@
         </div>
         <div class="innerVideo">
             <video width="300" height="375" controls>
-                <source src="https://res.cloudinary.com/peggy-co/video/upload/c_scale,w_300/v1593601416/12%20Steps%20The%20Curative%20Hypno/welcome_mess_a02ez5.mp4" type="video/mp4">
-                <source src="https://res.cloudinary.com/peggy-co/video/upload/c_scale,w_300/v1593601416/12%20Steps%20The%20Curative%20Hypno/welcome_mess_a02ez5.webm" type="video/webm">
+                <source src="{{ videos.vid1 }}" type="video/mp4">
+                <source src="{{ videos.vid2 }}" type="video/webm">
                 Your browser does not support the video tag.
             </video>   
         </div>
@@ -34,7 +34,7 @@
     <article class="magazineStyle">
         <div class="innerMagazineStyle">
             <div class="magazinePic">
-                <img src="https://res.cloudinary.com/peggy-co/image/upload/v1596119487/Well%20Being/journey_eaxuxe.jpg" alt="">
+                <img src="{{ imagesservices.img1 }}" alt="">
             </div>
             <div class="magazineText">
                 <p>{{ services.para3 }}</p>
@@ -49,7 +49,7 @@
                 <p>{{ services.para4 }}</p>
             </div>
             <div class="magazinePic">
-                <img src="https://res.cloudinary.com/peggy-co/image/upload/v1596125701/Well%20Being/lady-field.min_jidrzu.jpg" alt="">
+                <img src="{{ imagesservices.img2 }}" alt="">
             </div>
         </div>
     </article>
