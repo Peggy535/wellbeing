@@ -433,4 +433,25 @@ video#landing {
         "videoMessage"
         "paragraph"
     }
+    .innerText,
+    .innerVideo {
+        margin: 0.5em 1em;
+        padding: .5em;
+    }
+    .innerMagazineStyle {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "magImg"
+        "magText"
+    }
+    .innerMagazineStyle-reverse {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "magImg"
+        "magText"
+    }
 }
