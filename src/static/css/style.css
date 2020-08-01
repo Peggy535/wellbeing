@@ -200,10 +200,10 @@ video#landing {
 }
 .logo {
     grid-area: logo;
-    padding: 5em;
+    padding: 3em;
 }
 .logo img {
-    width: 20vw;
+    width: 15vw;
 }
 .statement {
     grid-area: statement;
@@ -212,8 +212,9 @@ video#landing {
     align-self: center;
     justify-self: end;
 }
-.statement h2 {
+.statement h3 {
     padding: 0.2em;
+    line-height: 1.3;
 }
 .menu {
     grid-area: menu;
@@ -231,6 +232,8 @@ video#landing {
     background: var(--persimmon);
     color: var(--white);
     opacity: 0.8;
+    padding: 1rem 1rem;
+    line-height: 1.3;
 }
 .innerBlock h4,
 .innerBlock h6,
@@ -249,7 +252,8 @@ video#landing {
     grid-area: intro;
     color: var(--black);
     padding: 0.5em;
-    margin: 5em 0;
+    margin: 1em 0;
+    line-height: 1.3;
 }
 .baseHome{
     display: grid;
@@ -257,7 +261,7 @@ video#landing {
     grid-template-columns: 2fr auto-fill;
     grid-template-areas:
     ". baseLink";
-    margin: 6em 0; 
+    margin: 2em 0; 
 }
 .innerHome{
     grid-area: baselink;
@@ -273,8 +277,11 @@ video#landing {
     "logo . . menu";
 }
 .landingTitle {
-    padding: 1em 2em;
+    padding: 1em 1em;
     background: var(--celadon);
+}
+.landingTitle h3 {
+    line-height: 3;
 }
 .blockquote-services {
     display: grid;
@@ -288,9 +295,14 @@ video#landing {
 .innerBlock-services {
     height: auto;
     grid-area: blockServices;
-    padding: 2rem 2rem;
+    padding: 2rem 4rem;
     background: var(--persimmon);
     color: var(--white);
+    line-height: 1.5;
+}
+.innerBlock-services h6 {
+    border-left: 1px solid #ffffff;
+    padding: 0 1em;
 }
 .journeyBlock {
     display: grid;
@@ -421,7 +433,7 @@ video#landing {
         justify-self: start;
     }
     .blockquote {
-        margin: 3em 0;
+        margin: 1em 0;
     }
     .intro{
         grid-template-columns: 1fr;
@@ -429,20 +441,29 @@ video#landing {
         "intro";
     }
     .introText{
-        padding: 1em 1em;
+        padding: 1em 2em;
     }
-    .introText h5,
-    .innerHome h6{
+    .introText h5{
         font-size: var(--step-0);
+    }
+    .innerHome h6 {
+        font-size: var(--step--1);
     }
     .landing-head {
         grid-template-areas: "logo menu";
+    }
+    .landingTitle{
+        padding: 1.5em;
     }
     .blockquote-services {
         grid-template-columns: 1fr;
         grid-template-areas:
             "blockServices";
-        margin-top: 6em;
+        margin-top: 3em;
+    }
+    .innerBlock-services {
+        padding: 1em 1em;
+        line-height: 1.5;
     }
     .innerJourneyBlock {
         height: auto;
