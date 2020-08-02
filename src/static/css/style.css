@@ -553,7 +553,7 @@ a.yinButton:hover{
     color: var(--black);
     background-color: var(--white);
 }
-@media (max-width: 700px){
+@media (max-width: 900px){
     hr{
         margin: 1rem 1rem;
     }
