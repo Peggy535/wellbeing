@@ -376,7 +376,7 @@ video#landing {
     padding: 1em 2em;
 }
 /*********************************/
-/* Therapies/cards */
+/* Services cards */
 .therapies{
     margin: 1em 1em;
 }
@@ -434,11 +434,12 @@ video#landing {
     display: grid;
     grid-gap: 20px;
 }
+/*.landing-therapy with landing-home*/
 .therapy-content {
     display: grid;
     grid-gap: 20px;
     grid-template-areas: 
-        "image text text"
+        "image      text       text"
         "lower-text lower-text lower-text";
 }
 .therapy-image {
@@ -477,7 +478,10 @@ video#landing {
             "statement statement"
     }
     .logo {
-        padding: 1.5em;
+        padding: 1rem;
+    }
+    .menu {
+        padding: .5rem .5rem;
     }
     .statement{
         padding-left: 2em;
@@ -497,11 +501,14 @@ video#landing {
     .introText h5{
         font-size: var(--step-0);
     }
-    .innerHome h6 {
+    .innerHome h6,
+    .therapy-side-text h6 {
         font-size: var(--step--1);
     }
-    .landing-head {
-        grid-template-areas: "logo menu";
+    .landing-head,
+    .landing-therapy {
+        grid-template-areas: 
+            "logo menu"
     }
     .landingTitle{
         padding: 1.5em;
@@ -546,4 +553,23 @@ video#landing {
         "magImg"
         "magText"
     }
+    .therapy-content {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "text"
+            "image"
+            "lower-text";
+    }
+    .therapy-side-text {
+        grid-area: text;
+        line-height: 1.3;
+        padding: .5rem .5rem;
+    }
+    .therapy-lower-text {
+        margin: 0.5rem 0.5rem;
+        padding-left: 0.5rem;
+    }
+    
 }
