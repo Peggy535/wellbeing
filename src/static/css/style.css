@@ -504,6 +504,9 @@ video#landing {
     margin-bottom: 4rem;
 }
 @media (max-width: 700px){
+    hr{
+        margin: 1rem 1rem;
+    }
     .landing {
         height: 100vh;
         display: grid;
