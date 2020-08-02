@@ -168,6 +168,15 @@ a:hover {
     transition: 0.5s;
     color: var(--persimmon);
 }
+.text-white{
+    color: var(--white);
+}
+.text-black{
+    color: var(--black);
+}
+.text-orange{
+    color: var(--persimmon);
+}
 /*************************************/
 /* || Landing Page CSS Grid Specific */
 video#landing { 
@@ -428,6 +437,18 @@ video#landing {
 /*Specific Therapies Pages */
 .cbt-colour {
     background-color: var(--cbt);
+    color: var(--white);
+}
+.hypno-colour {
+    background-color: var(--hypno);
+    color: var(--white);
+}
+.wellbeing-colour{
+    background-color: var(--wellbeing);
+    color: var(--white);
+}
+.yin-colour {
+    background-color: var(--yin);
     color: var(--white);
 }
 .wrapper-therapy {
