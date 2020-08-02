@@ -4,7 +4,7 @@ layout: 'layouts/yinyoga.html'
 canonical: 'https://www.justinehodgsonhypnotherapy.com/yinyoga/'
 background: 'yin-colour'
 detailsyin: 
-    image1: 'https://res.cloudinary.com/peggy-co/image/upload/v1596125709/Well%20Being/pathway_sb8hys.jpg'
+    image1: 'https://res.cloudinary.com/peggy-co/image/upload/v1596389017/Well%20Being/yinyoga.min_cw5ebf.jpg'
     alt1: 'A picture spelling out the word breathe'
     title1: 'Yin Yoga Therapy'
     para1: 'That instant stress relief button. Research shows that as you get older, if you don’t take quality time to stretch, the body will been to atrophy, stiffen and deteriorate. This program is like the fountain of youth keeping your fascia pliable and hydrated, and therefore restoring youthfulness to your body.'
