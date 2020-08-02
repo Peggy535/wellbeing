@@ -3,22 +3,26 @@
         {
             "title": "CBT",
             "description": "Cognitive behavioural therapy (CBT) is a talking therapy that can help you manage your problems by changing the way you think and behave.",
-            "image": "/static/images/therapy-cbt.svg"
+            "image": "/static/images/therapy-cbt.svg",
+            "link": "/cbt/"
         },
         {
             "title": "Hypnotherapy",
             "description": "Curative hypnotherapy is a method of working purely with the subconscious mind to understand and correct specific details which have played a part in the initial creation of a symptom.",
-            "image": "/static/images/therapy-hypnotherapy.svg"
+            "image": "/static/images/therapy-hypnotherapy.svg",
+            "link": "/hypnotherapy/"
         },
         {
             "title": "Mental Health & Wellbeing",
             "description": "Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act.",
-            "image": "/static/images/therapy-wellbeing.svg"
+            "image": "/static/images/therapy-wellbeing.svg",
+            "link": "/wellbeing/"
         },
         {
             "title": "Yin Yoga Therapy",
             "description": "An instant stress relief button! Yin is the most accessible of the physical yoga systems and can be practised by anyone",
-            "image": "/static/images/therapy-yin-yoga.svg"
+            "image": "/static/images/therapy-yin-yoga.svg",
+            "link": "/yinyoga/"
         }
 
     ]
