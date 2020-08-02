@@ -130,6 +130,7 @@
 body,html{
     color:var(--black);
     font-family:var(--font-Thin);
+    font-weight: 700;
     margin:0;
     padding:0;
     width:100vw;
@@ -151,7 +152,7 @@ footer,header,main,nav,section{display:block}
 h1,h2,h3,h4,h5,h6{
     font-family:var(--font-Thin);
     margin:0;
-    font-weight: 1;
+    font-weight: 700;
 }
 h1{font-size:var(--step-6)}
 h2{font-size:var(--step-5)}
