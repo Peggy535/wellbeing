@@ -12,4 +12,5 @@ detailscbt:
     para3: 'The great advantage that ‘CBT’ has over other therapies is that clients undergoing ‘CBT’ treatment are actually learning the educational aspects of the therapy, which is then empowering them to become their own personal therapist and to be more aware of the circumstances, situations, behaviours and people the could cause them to lapse and therefore to be able to avoid these aspects in their lives.'
     para4: 'I bring together a  combination of CBT and Curative Hypnosis to assist a number of my clients and we have experienced amazing results. Especially in stress related disorders.'
     para5: 'If you think CBT can help you or someone you know, just go ahead and contact me.'
+    button: 'cbtButton'
 ---

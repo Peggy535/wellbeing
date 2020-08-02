@@ -25,12 +25,12 @@
             "url": "/yinyoga/"
         },
         {
-            "text": "Booking",
+            "text": "Bookings & Contact",
             "url": "/booking/"
         },
         {
-            "text": "Contact me",
-            "url": "/contact-me/"
+            "text": "Blog",
+            "url": "/blog/"
         }
     ]
 }

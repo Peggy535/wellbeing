@@ -173,14 +173,16 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    line-height: 1.3;
 }
 a {
     text-decoration: none;
     color: var(--black);
+    padding: 1rem 1rem;
 }
 a:hover {
-    transition: 0.5s;
-    color: var(--persimmon);
+    transition: 0.3s;
+    color:  var(--persimmon);
 }
 .text-white{
     color: var(--white);
@@ -311,7 +313,8 @@ video#landing {
     background: var(--white);
     color: var(--persimmon);
 }
-.landingTitle h3 {
+.landingTitle h3,
+.servicesHeading h2 {
     line-height: 3;
 }
 .blockquote-services {
@@ -502,6 +505,53 @@ video#landing {
 }
 .therapy-title {
     margin-bottom: 4rem;
+}
+.bookButton {
+    margin: 2rem 0;
+}
+.cbtButton {
+    padding: .5rem .5rem;
+    background-color: var(--white);
+    color: var(--cbt);
+    border-radius: 0.5rem;
+}
+.hypnoButton {
+    padding: .5rem .5rem;
+    background-color: var(--white);
+    color: var(--black);
+    border-radius: 0.5rem;
+}
+.wellbeingButton {
+    padding: .5rem .5rem;
+    background-color: var(--white);
+    color: var(--wellbeing);
+    border-radius: 0.5rem;
+}
+.yinButton {
+    padding: .5rem .5rem;
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 0.5rem;
+}
+a.cbtButton:hover {
+    transition: 0.3s;
+    color: var(--white);
+    background-color: var(--cbt);
+}
+a.hypnoButton:hover {
+    transition: 0.3s;
+    color: var(--white);
+    background-color: var(--black);
+}
+a.wellbeingButton:hover {
+    transition: 0.3s;
+    color: var(--black);
+    background-color: var(--yin);
+}
+a.yinButton:hover{
+    transition: 0.3s;
+    color: var(--black);
+    background-color: var(--white);
 }
 @media (max-width: 700px){
     hr{

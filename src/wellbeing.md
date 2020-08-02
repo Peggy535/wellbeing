@@ -12,4 +12,5 @@ detailswellbeing:
     para3: 'How can you hire me? You can simply book a ''free'' time slot to chat to me or drop me an email. You may just decide you want me as your CBT/Hypnosis therapist or Just as a Yin Yoga therapy Teacher. Stress relief coach, I''m here and I''m flexible as each client is unique and deserving of the right mixture of guidance and support. The combination and choice is yours, I will be happy to guide you to the correct combination of products once you connect with me.'
     para4: 'There really is no reason to suffer or think that you can''t be helped or it''s silly to reach out regarding mental health. If you are reading this page then you are here for a reason and the honesty of your situation has brought you to my site for you to make some positive changes for your future.'
     para5: 'I am holding space for you. Speak soon.'
+    button: 'wellbeingButton'
 ---
