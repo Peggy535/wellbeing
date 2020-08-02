@@ -1,0 +1,42 @@
+{% extends "layouts/base.html" %} 
+
+{% block content %}
+
+<section class="wrapper-services">
+    <div class="landing-head">
+        {% include "partials/logo.html" %}
+        {% include "partials/menu.html" %}
+    </div>
+    <div class="landingTitle">
+        <h2>{{ book.title }}</h2>
+    </div>
+</section>
+<article class="blockquote-services">
+    <div class="innerBlock-services">
+        <h6>{{ book.para1 }}</h6>
+        <video class="innervideo" width="300px" controls>
+            <source src="https://res.cloudinary.com/peggy-co/video/upload/v1593701181/12%20Steps%20The%20Curative%20Hypno/about_justine_mjkbr2.mp4" type="video/mp4">
+            <source src="https://res.cloudinary.com/peggy-co/video/upload/v1593701181/12%20Steps%20The%20Curative%20Hypno/about_justine_mjkbr2.webm" type="video/webm">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</article>
+<section class="therapies">
+    <ul>
+        {% for choice in choices.actions %}
+            <li>
+                <figure>
+                    <img src="{{ choice.image }}" alt="">
+                    <h6>{{ choice.title}}</h6>
+                    <hr>
+                    {% if choice.price %}
+                        <h6>{{ choice.price }}</h6>
+                    {% endif %}
+                </figure>
+                <p>{{ choice.description }}</p>
+                <a href="{{ choice.link }}">Select</a>
+            </li>
+        {% endfor %}
+    </ul>
+</section>
+{% endblock %}

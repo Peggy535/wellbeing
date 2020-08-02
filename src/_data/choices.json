@@ -1,0 +1,31 @@
+{
+    "actions": [
+        {
+            "image":"/static/images/booking-consult.min.svg",
+            "title": "Book Free Consultation",
+            "description": "Take 30 mins with me to talk and discover....",
+            "price": "Free",
+            "link":"#calendly link here"
+        },
+        {
+            "image":"/static/images/booking-session.min.svg",
+            "title": "CBT, Hypnotherapy & Wellbeing coaching",
+            "description": "Brief description here....",
+            "price": "£55 per session",
+            "link":"#calendly link here"
+        },
+        {
+            "image":"/static/images/booking-yin.min.svg",
+            "title": "Book 1-to-1 Online Yin Yoga Therapy",
+            "description": "Brief description here....",
+            "price": "£20 per session",
+            "link":"#calendly link here"
+        },
+        {
+            "image":"/static/images/booking-email.min.svg",
+            "title": "Send me a message",
+            "description": "Whatever your question or query, email me here.",
+            "link":"# link here"
+        }
+    ]
+}

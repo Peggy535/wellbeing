@@ -1,5 +1,5 @@
 ---
-title: 'JH | Services | CBT, Hypnotherapy, Mental Health, and Wellbeing Expert'
+title: 'JH | Services available | CBT, Hypnotherapy, Mental Health, and Wellbeing Expert'
 layout: 'layouts/services.html'
 canonical: 'https://www.justinehodgsonhypnotherapy.com/services/'
 services:
