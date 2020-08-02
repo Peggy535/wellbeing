@@ -16,6 +16,17 @@
     src: url("/static/fonts/domaine-sans-display-test-thin.woff") format("woff"),
          url("/static/fonts/DomaineSansDisplay-ThinTest.woff2") format("woff2");
     }
+@font-face {
+    font-family: "Domaine-Sans-Reg";
+    src: url("/static/fonts/domaine-sans-display-test-regular.woff") format("woff"),
+            url("/static/fonts/DomaineSansDisplay-RegularTest.woff2") format("woff2");
+    }
+@font-face {
+    font-family: "Domaine-Sans-Med";
+    src: url("/static/fonts/domaine-sans-display-test-medium.woff") format("woff"),
+            url("/static/fonts/DomaineSansDisplay-MediumTest.woff2") format("woff2");
+    }
+    
 :root {
     --fluid-min-width: 320;
     --fluid-max-width: 1366;
@@ -108,6 +119,8 @@
     /*font variable declarations*/
     --font-Light:'Domaine-Sans-Light';
     --font-Thin:'Domaine-Sans-Thin';
+    --font-Reg:'Domaine-Sans-Reg';
+    --font-Med:'Domaine-Sans-Med';
 }
 /*|| General Styles */
 *,::after,::before{
@@ -116,7 +129,7 @@
 }  
 body,html{
     color:var(--black);
-    font-family:var(--font-Light);
+    font-family:var(--font-Reg);
     margin:0;
     padding:0;
     width:100vw;
@@ -136,7 +149,7 @@ body {
 footer,header,main,nav,section{display:block}
 
 h1,h2,h3,h4,h5,h6{
-    font-family:var(--font-Light);
+    font-family:var(--font-Reg);
     margin:0;
     font-weight: 1;
 }

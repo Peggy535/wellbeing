@@ -1,0 +1,30 @@
+{% extends "layouts/base.html" %} 
+
+{% block content %}
+<main class="wrapper-therapy">
+    <div class="landing-therapy">
+        {% include "partials/logo.html" %}
+        {% include "partials/menu.html" %}
+    </div>
+    <article class="therapy-content">
+        <div class="therapy-image">
+            <img src="{{ detailsyin.image1 }}" alt="{{ detailsyin.alt1 }}">
+        </div>
+        <div class="therapy-side-text">
+            <h4 class="therapy-title">{{ detailsyin.title1}}</h4>
+            <hr>
+            <h6><i>{{ detailsyin.para1 }}</i></h6>
+            <hr>
+        </div>
+        <div class="therapy-lower-text">
+            <div class="lower-text-border-wrapper">
+                <p>{{ detailsyin.para2 }}</p><br><br>
+                <p>{{ detailsyin.para3 }}</p><br><br>
+                <p>{{ detailsyin.para4 }}</p><br><br>
+                <p>{{ detailsyin.para5 }}</p>
+                <a href="#">Book your Hypnotherapy online now</a>
+            </div>
+        </div>
+    </article>
+</main>
+{% endblock %}
