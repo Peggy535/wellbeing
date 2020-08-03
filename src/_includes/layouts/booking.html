@@ -13,7 +13,6 @@
 <article class="blockquote-services">
     <div class="innerBlock-services">
         <h6>{{ book.para1 }}</h6>
-        <button id="myBtn">Watch my video</button>
     </div>
 </article>
 <section class="therapies">
@@ -44,54 +43,4 @@
         {% endfor %}
     </ul>
 </section>
-
-<!--Modal code for video-->
-<div id="myModal" class="modal">
-<!-- Modal content -->
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <video id="video2" class="innervideo" width="100%" autoplay>
-            <source src="https://res.cloudinary.com/peggy-co/video/upload/v1593701181/12%20Steps%20The%20Curative%20Hypno/about_justine_mjkbr2.mp4" type="video/mp4">
-            <source src="https://res.cloudinary.com/peggy-co/video/upload/v1593701181/12%20Steps%20The%20Curative%20Hypno/about_justine_mjkbr2.webm" type="video/webm">
-            Your browser does not support the video tag.
-        </video>
-    </div>
-</div>
-<script>
-var modal = document.getElementById("myModal");
-
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-var vid = document.getElementById("video2");
-function stopVideo(){
-          vid.pause();
-          vid.currentTime = 0;
-}
-function startVideo() {
-        vid.currentTime = 0;
-        vid.play();
-}
-// When the user clicks on the button, open the modal
-btn.onclick = function() {
-  modal.style.display = "block";
-  startVideo();
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-  stopVideo();
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    stopVideo();
-  }
-}
-</script>
 {% endblock %}
