@@ -48,7 +48,7 @@
 <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
-        <video id="video2"class="innervideo" width="100%" controls>
+        <video id="video2" class="innervideo" width="100%" autoplay>
             <source src="https://res.cloudinary.com/peggy-co/video/upload/v1593701181/12%20Steps%20The%20Curative%20Hypno/about_justine_mjkbr2.mp4" type="video/mp4">
             <source src="https://res.cloudinary.com/peggy-co/video/upload/v1593701181/12%20Steps%20The%20Curative%20Hypno/about_justine_mjkbr2.webm" type="video/webm">
             Your browser does not support the video tag.
@@ -68,9 +68,14 @@ function stopVideo(){
           vid.pause();
           vid.currentTime = 0;
 }
+function startVideo() {
+        vid.currentTime = 0;
+        vid.play();
+}
 // When the user clicks on the button, open the modal
 btn.onclick = function() {
   modal.style.display = "block";
+  startVideo();
 }
 
 // When the user clicks on <span> (x), close the modal
