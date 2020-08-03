@@ -48,7 +48,7 @@
 <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
-        <video class="innervideo" width="100%" controls>
+        <video id="video2"class="innervideo" width="100%" controls>
             <source src="https://res.cloudinary.com/peggy-co/video/upload/v1593701181/12%20Steps%20The%20Curative%20Hypno/about_justine_mjkbr2.mp4" type="video/mp4">
             <source src="https://res.cloudinary.com/peggy-co/video/upload/v1593701181/12%20Steps%20The%20Curative%20Hypno/about_justine_mjkbr2.webm" type="video/webm">
             Your browser does not support the video tag.
@@ -63,7 +63,11 @@ var btn = document.getElementById("myBtn");
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
-
+var vid = document.getElementById("video2");
+function stopVideo(){
+          vid.pause();
+          vid.currentTime = 0;
+}
 // When the user clicks on the button, open the modal
 btn.onclick = function() {
   modal.style.display = "block";
@@ -72,12 +76,14 @@ btn.onclick = function() {
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
   modal.style.display = "none";
+  stopVideo();
 }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+    if (event.target == modal) {
+        modal.style.display = "none";
+    stopVideo();
   }
 }
 </script>
