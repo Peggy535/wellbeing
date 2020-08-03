@@ -28,7 +28,7 @@
             "image":"/static/images/booking-email.min.svg",
             "title": "Send me a message",
             "description": "Whatever your question or query, email me here.",
-            "link":"# link here"
+            "email": "https://form.typeform.com/to/KOcBBEGS"
         }
     ]
 }
