@@ -3,23 +3,26 @@
         {
             "image":"/static/images/booking-consult.min.svg",
             "title": "Book Free Consultation",
-            "description": "Take 30 mins with me to talk and discover....",
+            "description": "Take 30 mins with me to talk and discover how we can accomplish your goals and aspirations.",
             "price": "Free",
-            "link":"#calendly link here"
+            "link":"false",
+            "calendly": "Calendly.initPopupWidget({url: 'https://calendly.com/justinehodgsonhypnotherapy/free-consultation-call?primary_color=f88209'});return false;"
         },
         {
             "image":"/static/images/booking-session.min.svg",
             "title": "CBT, Hypnotherapy & Wellbeing coaching",
-            "description": "Brief description here....",
+            "description": "Whichever therapies you decide upon, book your session here. All sessions are conducted online using Zoom in the comfort of your ownhome.",
             "price": "£55 per session",
-            "link":"#calendly link here"
+            "link":"#calendly link here",
+            "calendly": "Calendly.initPopupWidget({url: 'https://calendly.com/justinehodgsonhypnotherapy/60min?primary_color=f88209'});return false;"
         },
         {
             "image":"/static/images/booking-yin.min.svg",
             "title": "Book 1-to-1 Online Yin Yoga Therapy",
-            "description": "Brief description here....",
+            "description": "Book your 1-to-1 personal Yin Yoga session. All sessions are conducted on Zoom in the comfort of your own home.",
             "price": "£20 per session",
-            "link":"#calendly link here"
+            "link":"#calendly link here",
+            "calendly": "Calendly.initPopupWidget({url: 'https://calendly.com/justinehodgsonhypnotherapy/private-1-to-1-yoga?primary_color=f88209'});return false;"
         },
         {
             "image":"/static/images/booking-email.min.svg",

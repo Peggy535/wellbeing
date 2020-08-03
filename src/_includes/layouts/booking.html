@@ -34,7 +34,15 @@
                     {% endif %}
                 </figure>
                 <p>{{ choice.description }}</p>
-                <a href="{{ choice.link }}">Select</a>
+                {% if choice.calendly %}
+                    <!-- Calendly link widget begin -->
+                    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+                    <a href="" onclick="{{ choice.calendly }}">Select</a>
+                    <!-- Calendly link widget end -->
+                {% else %}
+                    <a href="{{ choice.link }}">Select</a>
+                {% endif %}
             </li>
         {% endfor %}
     </ul>
