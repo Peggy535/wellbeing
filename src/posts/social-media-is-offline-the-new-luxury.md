@@ -1,6 +1,6 @@
 ---
 title: 'Social Media - Is offline the new luxury?'
-date: '2019-06-01'
+date: '2019-07-01'
 tags: ['Anxiety', 'Phobias', 'Fear', 'Social Media', 'Addiction']
 ---
 Something to think about before you scroll your life away....
