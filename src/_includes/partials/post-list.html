@@ -1,18 +1,20 @@
-<div class="" id="post-list">
-    <div class="">
-        {% if postListHeadline %}
-            <h2 class="" data-highlight="primary">
+<div class="">
+    {% if postListHeadline %}
+        <h2 class="" data-highlight="primary">
             {{ postListHeadline }}
         </h2>
-        {% endif %}
-        <div>
-            <ol class="">
-                {% for item in postListItems %}
-                    <li class="">
-                        <a href="{{ item.url }}" class="">{{ item.data.title }}</a>
-                    </li>
-                {% endfor %}
-            </ol>
-        </div>
+    {% endif %}
+    <div class="therapies">
+        <ul>
+            {% for item in postListItems %}
+                <li>
+                    <figure>
+                        <img src="{{ item.data.image }}" alt="">
+                    </figure>
+                    <p>{{ item.data.title }}</p>
+                    <a href="{{ item.url }}" class="">Read here</a>
+                </li>
+            {% endfor %}
+        </ul>
     </div>
 </div>
