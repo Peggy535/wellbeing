@@ -2,6 +2,7 @@
 title: 'Honesty & Truth Moving into 2020'
 date: '2019-12-01'
 tags: ['Honesty', 'Hypnosis']
+image: 'https://res.cloudinary.com/peggy-co/image/upload/v1596638480/Well%20Being/nov_blog.min_dzkwzy.jpg'
 ---
 The most beneficial thing you can do for yourself as we all move closer towards 2020,  is to get real and cut the Bullshit. The bullshit you feed yourself and others. Have acceptance that the not so good day’s don’t last forever but they are ‘real’ so don’t add any shame or guilt when your day isn’t the most positive. With out the downs there are no ups. Without the Darkness there is no light. You get my drift?
 

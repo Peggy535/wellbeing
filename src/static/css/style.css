@@ -664,7 +664,8 @@ button#myBtn {
     display: grid;
     grid-gap: 20px;
     grid-template-areas: 
-        "blogTitle blogSummary"
+        "blogTitle blogImage"
+        "blogSummary BlogSummary"
         "blogContent blogContent";
 }
 .blogTitle {
@@ -675,15 +676,48 @@ button#myBtn {
     padding: 3rem 1rem;
     color: var(--white);
 }
+.blogImage {
+    grid-area: blogImage;
+}
+.blogImage img {
+    width: 100%;
+    padding: .5rem .5rem;
+}
 .blogSummary {
     grid-area: blogSummary;
 }
 .page-header__summary {
     color: var(--persimmon);
+    padding-left: .5rem;
+}
+p#tags-desc {
+    font-size: var(--step--2);
+}
+ul.tags-list > li {
+    font-size: var(--step--1);
+    display: inline-flex;
+    padding: .5rem .5rem;
+}
+ul.tags-list > li > a {
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 1rem;
+    padding: .5rem;
+}
+ul.tags-list > li > a:hover {
+    background-color: var(--white);
+    color: var(--black);
+    transition: .5s;
 }
 .blogContent {
     grid-area: blogContent;
+    margin: 1rem 4rem;
+    border-left: 1px solid var(--black);
+    padding-left: .5rem;
 }
+/***End Blog***/
+/*****************************************/
+
 @media (max-width: 900px){
     hr{
         margin: 1rem 1rem;
@@ -789,5 +823,19 @@ button#myBtn {
     .therapy-lower-text {
         margin: 0.5rem 0.5rem;
         padding-left: 0.5rem;
+    }
+    .blockquote-blog {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-areas: 
+            "blogTitle"
+            "blogImage"
+            "blogSummary"
+            "blogContent";
+    }
+    ul.tags-list > li {
+        font-size: var(--step--2);
+        display: inline-flex;
+        padding: .25rem .1rem;
     }
 }

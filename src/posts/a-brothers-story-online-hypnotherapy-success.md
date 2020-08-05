@@ -2,6 +2,7 @@
 title: 'Online Hypnotherapy success - how you can stop smoking'
 date: '2020-05-01'
 tags: ['All', 'Addiction', 'Smoking', 'Hypnosis']
+image: 'https://res.cloudinary.com/peggy-co/image/upload/v1596638480/Well%20Being/brothers_story.min_svuotx.jpg'
 ---
 Just months before his Summer Wedding, my Brother approached me about my hypnotherapy sessions and asked if I would help him to 
 quit smoking. He didn’t really have much knowledge about hypnotherapy and the curative more holistic approach that I take with 

@@ -1,12 +1,14 @@
 {% extends "layouts/base.html" %}
 
 {% set pageHeaderTitle = title %}
+{% set pageHeaderImage = image %}
+
 
 {# Render post date and any tags that this post has been filed under #}
 {% set pageHeaderSummary %}
     <time datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>
     {% if tags %}
-        <p class="visually-hidden" id="tags-desc">Tags: Please click on these to find specific articles</p>
+        <p id="tags-desc">Tags: Please click on these to find related articles & Case studies</p>
         <ul class="tags-list" aria-describedby="tags-desc">
         {% for tag in tags %}
             <li>
@@ -20,7 +22,7 @@
 {% block content %}
     <article>
         {% include "partials/page-header.html" %}
-        <div class="">
+        <div class="blogContent">
             {{ content | safe }}
         </div>
     </article>
