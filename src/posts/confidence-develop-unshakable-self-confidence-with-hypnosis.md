@@ -1,5 +1,5 @@
 ---
-title: 'Fear - Taking off once more'
+title: 'How you can have the self-confidence you wish'
 date: '2019-09-01'
 tags: ['Anxiety', 'Phobias', 'Fear', 'Self-Confidence', 'Hypnosis']
 ---

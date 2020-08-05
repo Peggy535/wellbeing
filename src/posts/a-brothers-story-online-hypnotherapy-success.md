@@ -1,7 +1,7 @@
 ---
-title: 'A brother's story - Online Hypnotherapy - Success'
-date: '2019-09-01'
-tags: ['Anxiety', 'Phobias', 'Fear', 'Stop-smoking', 'Hypnosis', 'Online Hypnotherapy']
+title: 'Online Hypnotherapy success - how you can stop smoking'
+date: '2020-05-01'
+tags: ['All', 'Addiction', 'Smoking', 'Hypnosis']
 ---
 Just months before his Summer Wedding, my Brother approached me about my hypnotherapy sessions and asked if I would help him to 
 quit smoking. He didn’t really have much knowledge about hypnotherapy and the curative more holistic approach that I take with 

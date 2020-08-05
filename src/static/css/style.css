@@ -377,8 +377,20 @@ video#landing {
     color: var(--white);
     line-height: 1.5;
 }
+.innerBlock-services-black {
+    height: auto;
+    grid-area: blockServices;
+    padding: 2rem 4rem;
+    background: var(--white);
+    color: var(--black);
+    line-height: 1.5;
+}
 .innerBlock-services h6 {
     border-left: 1px solid #ffffff;
+    padding: 0 1em;
+}
+.innerBlock-services-black h6 {
+    border-left: 1px solid var(--black);
     padding: 0 1em;
 }
 .journeyBlock {
@@ -646,7 +658,32 @@ button#myBtn {
 }
 /***************************************/
 /* End modal */
-
+/*********************************/
+/* Blog section */
+.blockquote-blog {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: 
+        "blogTitle blogSummary"
+        "blogContent blogContent";
+}
+.blogTitle {
+    grid-area: blogTitle;
+    background-color: var(--persimmon);
+}
+.blogTitle h3 {
+    padding: 1rem 1rem;
+    color: var(--white);
+}
+.blogSummary {
+    grid-area: blogSummary;
+}
+.page-header__summary {
+    color: var(--persimmon);
+}
+.blogContent {
+    grid-area: blogContent;
+}
 @media (max-width: 900px){
     hr{
         margin: 1rem 1rem;

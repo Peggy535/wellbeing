@@ -1,5 +1,5 @@
 ---
-title: 'Fear - Taking off once more'
+title: 'Fear of flying and how it can be overcome'
 date: '2019-06-01'
 tags: ['Anxiety', 'Phobias', 'Fear', 'Fear of flying']
 ---
