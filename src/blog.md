@@ -9,5 +9,4 @@ paginationPrevText: 'Newer posts'
 paginationNextText: 'Older posts'
 paginationAnchor: '#post-list'
 ---
-
-The latest articles from JH Therapies discussing real life case studies and how individuals have overcome their specific obstacles.
+A summary of blog content here....

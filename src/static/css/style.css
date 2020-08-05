@@ -672,7 +672,7 @@ button#myBtn {
     background-color: var(--persimmon);
 }
 .blogTitle h3 {
-    padding: 1rem 1rem;
+    padding: 3rem 1rem;
     color: var(--white);
 }
 .blogSummary {
