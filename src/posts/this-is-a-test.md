@@ -1,5 +1,4 @@
 ---
-layout: blog
 title: This is a test
 date: 2020-08-06T12:49:17.196Z
 image: /src/static/uploads/jh-logo.min.jpg
