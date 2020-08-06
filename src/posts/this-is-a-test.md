@@ -3,6 +3,9 @@ title: This is a test
 date: 2020-08-06T16:22:33.204Z
 image: /static/uploads/journey.jpg
 tags:
-  - All journey hypnotherapy
+  - All
+  - journey
+  - hypnotherapy
+  - testing
 ---
 Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing
