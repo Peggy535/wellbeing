@@ -7,19 +7,17 @@
 <meta property="og:url" content="{{ canonical }}" />
 <meta property="og:locale" content="en_GB" />
 
-{% if socialImage %}
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="/static/images/fb-image.min.jpg" />
-  <meta name="twitter:image" content="/static/images/twitter-summary-card.min.jpg" />
-  <meta property="og:image:alt" content="Page image for {{ site.name }}" />
-  <meta name="twitter:image:alt" content="Page image for {{ site.name }}" />
-{% endif %}
+<meta name="twitter:site" content="@hodgson_justine">
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="og:image" content="/static/images/fb-image.min.jpg" />
+<meta name="twitter:image" content="/static/images/twitter-summary-card.min.jpg" />
+<meta property="og:image:alt" content="Page image for {{ site.name }}" />
+<meta name="twitter:image:alt" content="Page image for {{ site.name }}" />
 
-{% if metaDesc %}
-  <meta name="description" content="{{ metaDesc }}" />
-  <meta name="twitter:description" content="{{ metaDesc }}" />
-  <meta property="og:description" content="{{ metaDesc }}" />
-{% endif %}
+<meta name="description" content="{{ metaDesc }}" />
+<meta name="twitter:description" content="{{ metaDesc }}" />
+<meta property="og:description" content="{{ metaDesc }}" />
+
 <link rel="apple-touch-icon" sizes="180x180" href="/static/favicon.ico/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon.ico/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon.ico/favicon-16x16.png">
