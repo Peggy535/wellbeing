@@ -5,6 +5,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @charset "UTF-8";
 @font-face {
     font-family: "Domaine-Sans-Light";
@@ -181,6 +188,8 @@ a {
     padding: 1rem 1rem;
 }
 a:hover {
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
     color:  var(--persimmon);
 }
@@ -214,6 +223,8 @@ a:hover {
     color: var(--persimmon); /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 4rem; /* Place content 60px from the top */
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
     transition: 0.2s; /* 0.5 second transition effect to slide in the sidenav */
   }
   /* The navigation menu links */
@@ -223,6 +234,8 @@ a:hover {
     font-size: var(--step-1);
     color: var(--persimmon);
     display: block;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
   }
   /* When you mouse over the navigation links, change their color */
@@ -245,8 +258,10 @@ video#landing {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    object-position: center;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
     z-index: -10;
 }
 .overlay::before {
@@ -262,46 +277,68 @@ video#landing {
     margin: 0%;
   }
 .wrapper-main {
+    display: -ms-grid;
     display: grid;
     grid-gap: 20px;
 }
 .landing {
     height: 100vh;
+    display: -ms-grid;
     display: grid;
     grid-gap: 20px;
-    grid-template-areas: 
+        grid-template-areas: 
         "logo . . menu"
         ". . statement statement"
 }
 .logo {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
     grid-area: logo;
     padding: 3em;
+}
+.landing-head > .logo, .landing-therapy > .logo {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
 }
 .logo img {
     width: 15vw;
 }
 .statement {
+    -ms-grid-row: 3;
+    -ms-grid-column: 5;
+    -ms-grid-column-span: 3;
     grid-area: statement;
     color: var(--persimmon);
     padding-right: 1em;
-    align-self: center;
-    justify-self: end;
+    -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: end;
+        justify-self: end;
 }
 .statement h3 {
     padding: 0.2em;
     line-height: 1.3;
 }
 .menu {
+    -ms-grid-row: 1;
+    -ms-grid-column: 7;
     grid-area: menu;
 }
+.landing-head > .menu, .landing-therapy > .menu {
+    -ms-grid-row: 1;
+    -ms-grid-column: 7;
+}
 .blockquote {
+    display: -ms-grid;
     display: grid;
     grid-gap: 20px;
-    grid-template-areas:
+        grid-template-areas:
     "block";
     margin: 6em 0;
 }
 .innerBlock {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
     grid-area: block;
     background: var(--persimmon);
     color: var(--white);
@@ -316,13 +353,17 @@ video#landing {
     padding: 1em 1em;
 }
 .intro{
+    display: -ms-grid;
     display: grid;
     grid-gap: 20px;
+    -ms-grid-columns: 1fr 20px 3fr 20px 1fr;
     grid-template-columns: 1fr 3fr 1fr;
-    grid-template-areas: 
+        grid-template-areas: 
         ". intro ."
 }
 .introText{
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
     grid-area: intro;
     color: var(--black);
     padding: 0.5em;
@@ -330,25 +371,29 @@ video#landing {
     line-height: 1.3;
 }
 .baseHome{
+    display: -ms-grid;
     display: grid;
     grid-gap: 20px;
     grid-template-columns: 2fr auto-fill;
-    grid-template-areas:
+        grid-template-areas:
     ". baseLink";
     margin: 2em 0; 
 }
 .innerHome{
     grid-area: baselink;
-    justify-content: start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
 }
 /*********************************/
 /* Services */
 .landing-head,
 .landing-therapy {
     height: auto;
+    display: -ms-grid;
     display: grid;
     grid-gap: 20px;
-    grid-template-areas: 
+        grid-template-areas: 
     "logo . . menu";
 }
 .landingTitle {
@@ -361,15 +406,19 @@ video#landing {
     line-height: 2;
 }
 .blockquote-services {
+    display: -ms-grid;
     display: grid;
     grid-gap: 20px;
+    -ms-grid-columns: 1fr 20px 2fr 20px 1fr;
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-areas:
+        grid-template-areas:
         "blank blockServices blank";
     margin-top: 6em;
     height: auto;
 }
 .innerBlock-services {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
     height: auto;
     grid-area: blockServices;
     padding: 2rem 4rem;
@@ -378,6 +427,8 @@ video#landing {
     line-height: 1.5;
 }
 .innerBlock-services-black {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
     height: auto;
     grid-area: blockServices;
     padding: 2rem 4rem;
@@ -394,64 +445,93 @@ video#landing {
     padding: 0 1em;
 }
 .journeyBlock {
+    display: -ms-grid;
     display: grid;
     grid-gap: 20px;
 }
 .innerJourneyBlock {
     height: auto;
+    display: -ms-grid;
     display: grid;
     grid-gap: 10px;
+    -ms-grid-columns: 3fr 10px 2fr;
     grid-template-columns: 3fr 2fr;
-    grid-template-areas:
+        grid-template-areas:
     "paragraph videoMessage"
 }
 .innerText {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
     grid-area: paragraph;
     margin: 2em 2em;
     padding: 1em;
-    align-self: center;
+    -ms-grid-row-align: center;
+        align-self: center;
     line-height: 1.7;
 }
 .innerVideo {
-    justify-self: center;
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-align: center;
+        justify-self: center;
     grid-area: videoMessage;
     margin: 2em 2em;
 }
 .magazineStyle,
 .magazineStyle-reverse {
+    display: -ms-grid;
     display: grid;
     grid-gap: 20px;
 }
 .innerMagazineStyle-reverse {
+    display: -ms-grid;
     display: grid;
     grid-gap: 10px;
+    -ms-grid-columns: 1fr 10px 3fr;
     grid-template-columns: 1fr 3fr;
-    grid-template-areas:
+        grid-template-areas:
     "magText magImg";
 }
 .innerMagazineStyle {
+    display: -ms-grid;
     display: grid;
     grid-gap: 10px;
+    -ms-grid-columns: 3fr 10px 1fr;
     grid-template-columns: 3fr 1fr;
-    grid-template-areas:
+        grid-template-areas:
     "magImg magText";
 }
 .magazinePic {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
     grid-area: magImg;
     grid-gap: 10px;
+}
+.innerMagazineStyle > .magazinePic {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
 }
 .magazinePic img {
     width: 100%;
 }
 .magazineText {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
     grid-area: magText;
     margin: 2em 2em;
     line-height: 1.6;
-    align-self: center;
+    -ms-grid-row-align: center;
+        align-self: center;
+}
+.innerMagazineStyle > .magazineText {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
 }
 .servicesHeading {
+    display: -ms-grid;
     display: grid;
     grid-gap: 20px;
+    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     color: var(--persimmon);
     padding: 1em 2em;
@@ -462,6 +542,7 @@ video#landing {
     margin: 1em 1em;
 }
 .therapies > ul {
+    display: -ms-grid;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 1rem;
@@ -469,7 +550,8 @@ video#landing {
 .therapies > ul > li {
     border: 1px solid #000000;
     border-radius: .5rem;
-    justify-self: start;
+    -ms-grid-column-align: start;
+        justify-self: start;
 }
 .therapies > ul > li > figure {
     height: auto;
@@ -502,6 +584,8 @@ video#landing {
     border-radius: .25rem;
     text-align: center;
     display: inline-block;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
     transition: all 0.4s;
 }
 .therapies > ul > li > a:hover {
@@ -527,18 +611,22 @@ video#landing {
     color: var(--white);
 }
 .wrapper-therapy {
+    display: -ms-grid;
     display: grid;
     grid-gap: 20px;
 }
 /*.landing-therapy with landing-home*/
 .therapy-content {
+    display: -ms-grid;
     display: grid;
     grid-gap: 20px;
-    grid-template-areas: 
+        grid-template-areas: 
         "image      text       text"
         "lower-text lower-text lower-text";
 }
 .therapy-image {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
     grid-area: image;
     grid-gap: 20px;
     margin: 1rem 1rem;
@@ -547,12 +635,18 @@ video#landing {
     width: 100%;
 }
 .therapy-side-text {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 3;
     grid-area: text;
     line-height: 1.3;
     padding: 2rem 2rem;
 
 }
 .therapy-lower-text {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 5;
     grid-area: lower-text;
     margin: 1rem 4rem;
     line-height: 1.3;
@@ -593,21 +687,29 @@ video#landing {
     border-radius: 0.5rem;
 }
 a.cbtButton:hover {
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
     color: var(--white);
     background-color: var(--cbt);
 }
 a.hypnoButton:hover {
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
     color: var(--white);
     background-color: var(--black);
 }
 a.wellbeingButton:hover {
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
     color: var(--white);
     background-color: var(--wellbeing);
 }
 a.yinButton:hover{
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
     color: var(--black);
     background-color: var(--white);
@@ -661,14 +763,17 @@ button#myBtn {
 /*********************************/
 /* Blog section */
 .blockquote-blog {
+    display: -ms-grid;
     display: grid;
     grid-gap: 20px;
-    grid-template-areas: 
+        grid-template-areas: 
         "blogTitle blogImage"
         "blogSummary BlogSummary"
         "blogContent blogContent";
 }
 .blogTitle {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
     grid-area: blogTitle;
     background-color: var(--persimmon);
 }
@@ -677,6 +782,8 @@ button#myBtn {
     color: var(--white);
 }
 .blogImage {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
     grid-area: blogImage;
 }
 .blogImage img {
@@ -684,6 +791,8 @@ button#myBtn {
     padding: .5rem .5rem;
 }
 .blogSummary {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
     grid-area: blogSummary;
 }
 .page-header__summary {
@@ -695,6 +804,8 @@ p#tags-desc {
 }
 ul.tags-list > li {
     font-size: var(--step--1);
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     padding: .5rem .5rem;
 }
@@ -707,9 +818,14 @@ ul.tags-list > li > a {
 ul.tags-list > li > a:hover {
     background-color: var(--white);
     color: var(--black);
+    -webkit-transition: .5s;
+    -o-transition: .5s;
     transition: .5s;
 }
 .blogContent {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
     grid-area: blogContent;
     margin: 1rem 4rem;
     border-left: 1px solid var(--black);
@@ -725,9 +841,10 @@ ul.tags-list > li > a:hover {
     }
     .landing {
         height: 100vh;
+        display: -ms-grid;
         display: grid;
         grid-gap: 20px;
-        grid-template-areas: 
+            grid-template-areas: 
             "logo menu"
             "statement statement"
     }
@@ -739,14 +856,16 @@ ul.tags-list > li > a:hover {
     }
     .statement{
         padding-left: 2em;
-        justify-self: start;
+        -ms-grid-column-align: start;
+            justify-self: start;
     }
     .blockquote {
         margin: 1em 0;
     }
     .intro{
+        -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-        grid-template-areas: 
+            grid-template-areas: 
         "intro";
     }
     .introText{
@@ -761,15 +880,16 @@ ul.tags-list > li > a:hover {
     }
     .landing-head,
     .landing-therapy {
-        grid-template-areas: 
+            grid-template-areas: 
             "logo menu"
     }
     .landingTitle{
         padding: 1.5em;
     }
     .blockquote-services {
+        -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-        grid-template-areas:
+            grid-template-areas:
             "blockServices";
         margin-top: 3em;
     }
@@ -779,10 +899,13 @@ ul.tags-list > li > a:hover {
     }
     .innerJourneyBlock {
         height: auto;
+        display: -ms-grid;
         display: grid;
         grid-gap: 10px;
+        -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-        grid-template-areas:
+        -ms-grid-rows: auto 10px auto;
+            grid-template-areas:
         "videoMessage"
         "paragraph"
     }
@@ -792,43 +915,63 @@ ul.tags-list > li > a:hover {
         padding: .5em;
     }
     .innerMagazineStyle {
+        display: -ms-grid;
         display: grid;
         grid-gap: 10px;
+        -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-        grid-template-areas:
+        -ms-grid-rows: auto 10px auto;
+            grid-template-areas:
         "magImg"
         "magText"
     }
     .innerMagazineStyle-reverse {
+        display: -ms-grid;
         display: grid;
         grid-gap: 10px;
+        -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-        grid-template-areas:
+        -ms-grid-rows: auto 10px auto;
+            grid-template-areas:
         "magImg"
         "magText"
     }
     .therapy-content {
+        display: -ms-grid;
         display: grid;
         grid-gap: 10px;
+        -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-        grid-template-areas: 
+        -ms-grid-rows: auto 10px auto 10px auto;
+            grid-template-areas: 
             "text"
             "image"
             "lower-text";
     }
     .therapy-side-text {
+        -ms-grid-row: 1;
+        -ms-grid-column: 3;
+        -ms-grid-column-span: 3;
         grid-area: text;
         line-height: 1.3;
         padding: .5rem .5rem;
+    }
+    @media (max-width: 900px){
+    .therapy-side-text {
+            -ms-grid-row: 1;
+            -ms-grid-column: 1;
+            -ms-grid-column-span: 1;
+    }
     }
     .therapy-lower-text {
         margin: 0.5rem 0.5rem;
         padding-left: 0.5rem;
     }
     .blockquote-blog {
+        display: -ms-grid;
         display: grid;
         grid-gap: 20px;
-        grid-template-areas: 
+            grid-template-areas: 
             "blogTitle"
             "blogImage"
             "blogSummary"
@@ -836,7 +979,100 @@ ul.tags-list > li > a:hover {
     }
     ul.tags-list > li {
         font-size: var(--step--2);
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
         display: inline-flex;
         padding: .25rem .1rem;
+    }
+    .logo {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1
+    }
+    .landing-head > .logo, .landing-therapy > .logo {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1
+    }
+    .statement {
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3
+    }
+    .menu {
+        -ms-grid-row: 1;
+        -ms-grid-column: 3
+    }
+    .landing-head > .menu, .landing-therapy > .menu {
+        -ms-grid-row: 1;
+        -ms-grid-column: 3
+    }
+    .introText{
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+    .innerBlock-services {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+    .innerBlock-services-black {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+    .innerText {
+        -ms-grid-row: 3;
+        -ms-grid-column: 1
+    }
+    .innerVideo {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1
+    }
+    .innerMagazineStyle > .magazinePic {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1
+    }
+    .magazinePic {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1
+    }
+    .innerMagazineStyle > .magazineText {
+        -ms-grid-row: 3;
+        -ms-grid-column: 1
+    }
+    .magazineText {
+        -ms-grid-row: 3;
+        -ms-grid-column: 1
+    }
+    .therapy-image {
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+    }
+    .therapy-side-text {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+    }
+    .therapy-lower-text {
+        -ms-grid-row: 5;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+    }
+    .blogTitle {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+    .blogImage {
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+    }
+    .blogSummary {
+        -ms-grid-row: 5;
+        -ms-grid-column: 1;
+    }
+    .blogContent {
+        -ms-grid-row: 7;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+        margin: .5rem 1rem;
+        line-height: 1.5;
+        
     }
 }
