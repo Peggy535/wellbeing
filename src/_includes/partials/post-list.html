@@ -1,20 +1,18 @@
-<div class="">
-    {% if postListHeadline %}
-        <h2 class="" data-highlight="primary">
-            {{ postListHeadline }}
-        </h2>
-    {% endif %}
-    <div class="therapies">
-        <ul>
-            {% for item in postListItems %}
-                <li>
-                    <figure>
-                        <img src="{{ item.data.image }}" alt="">
-                    </figure>
-                    <p>{{ item.data.title }}</p>
-                    <a href="{{ item.url }}" class="">Read here</a>
-                </li>
-            {% endfor %}
-        </ul>
-    </div>
+{% if postListHeadline %}
+    <h2 data-highlight="primary">
+        {{ postListHeadline }}
+    </h2>
+{% endif %}
+<div class="therapies">
+    <ul>
+        {% for item in postListItems %}
+            <li>
+                <figure>
+                    <img src="{{ item.data.image }}" alt="">
+                </figure>
+                <p>{{ item.data.title }}</p>
+                <a href="{{ item.url }}" class="">Read here</a>
+            </li>
+        {% endfor %}
+    </ul>
 </div>

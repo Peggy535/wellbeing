@@ -3,12 +3,6 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 
 publish_mode: editorial_workflow
-media_library:
-  name: cloudinary
-  output_filename_only: true
-  config:
-    cloud_name: peggy-co
-    api_key: 981959627494644
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Post" # Used in the UI
@@ -19,14 +13,6 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime", dateFormat: "DD.MM.YYYY"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - label: "Featured Image"
-        name: "image"
-        widget: "image"
-        required: false
-        media_library:
-          config:
-            default_transformations:
-              - fetch_format: auto
-                width: 1000
-                quality: auto
-                crop: fill
+      - {label: "Featured Image", name: "image", widget: "image", required: false}
+      - {label: "Tags", name: "tags", widget: "list", default: ["All"]}
+
