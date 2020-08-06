@@ -5,7 +5,7 @@ backend:
 publish_mode: editorial_workflow
 media_library:
   name: cloudinary
-  output_filename_only: false
+  output_filename_only: true
   config:
     cloud_name: peggy-co
     api_key: 981959627494644
