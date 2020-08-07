@@ -1,8 +1,10 @@
 // Filters
 const dateFilter = require('./src/filters/date-filter.js');
 const w3DateFilter = require('./src/filters/w3-date-filter.js');
+const schema = require("@quasibit/eleventy-plugin-schema");
 
 module.exports = config => {
+    config.addPlugin(schema);
     config.addPassthroughCopy('./src/static/');
     config.addPassthroughCopy("favicon.ico");
     config.addPassthroughCopy("admin");
