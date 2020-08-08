@@ -6,6 +6,8 @@ module.exports = config => {
     config.addPassthroughCopy('./src/static/');
     config.addPassthroughCopy("favicon.ico");
     config.addPassthroughCopy("admin");
+    config.addPassthroughCopy('manifest.json');
+    config.addPassthroughCopy('sw.js');
     // Add filters
     config.addFilter('dateFilter', dateFilter);
     config.addFilter('w3DateFilter', w3DateFilter);
