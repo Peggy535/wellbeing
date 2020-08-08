@@ -46,3 +46,12 @@ self.addEventListener('fetch', evt => {
     })
   );
 });
+if (navigator.share) {
+    navigator.share({
+      title: 'JH | Online Therapies',
+      text: 'Online therapies to help develop and overcome any issue',
+      url: 'https://www.justinehodgsonhypnotherapy.com/',
+    })
+      .then(() => console.log('Successful share'))
+      .catch((error) => console.log('Error sharing', error));
+  }
