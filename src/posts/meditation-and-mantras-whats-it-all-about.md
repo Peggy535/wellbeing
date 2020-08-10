@@ -14,7 +14,7 @@ tags:
 
 ***\- ALBERT EINSTEIN***
 
-You been wondering if you should jump on the trend of mindfulness and the whole Meditation vibe? If you have then come along with me while I explain to you exactly why it's such a big thing, and what you are potentially missing out on!
+Have you been wondering if you should jump on the trend of mindfulness and the whole Meditation vibe? If you have then come along with me while I explain to you exactly why it's such a big thing, and what you are potentially missing out on!
 
 You'll be surprised by the amount of people who have been meditating for years, they may just not have been shouting about it. It’s not such a new thing, in fact it’s been around for an eternity! 
 
