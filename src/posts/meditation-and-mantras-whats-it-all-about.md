@@ -23,7 +23,7 @@ During Meditation we are trying to turn off the stress button and have some time
 
 It all really boils down to, 'switching off' the outside world and switching on the natural connection between stillness and breath from your soul level. The gift we give ourselves is an elimination of any negative energy and a surrender to stillness, stillness of mind and body. A releasing of stale thoughts and old energy into the universe and a recharged download of natural beautiful healing and a gentle caress of energy coming in to guide you from your natural compass within. 
 
-We are energy and the more we flow with our own energy and follow our intuition our minds seem less troubled. There is high and low energy and you can control this yourself. You just need to learn how it works and the benefits of taking responsibility to learn about yourself and what helps you live a more authentic life according to your internal compass. Put the effort in to explore this and stay in your own lane with it, keep it a personal thing and learn to feel your way out of any negative energy through meditation, releasing stale and old energy and generating new more beneficial, more inlined vibrational energy on a daily basis. Learn who you are, learn to be more you and come to the world with more for the greater good of all those you come in to contact with. 
+We are energy and the more we flow with our own energy and follow our intuition our minds seem less troubled. There is high and low energy and you can control this yourself. You just need to learn how it works and the benefits of taking responsibility to learn about yourself and what helps you live a more authentic life according to your internal compass. Put the effort in to explore this and stay in your own lane with it, keep it a personal experience and learn to feel your way out of any negative energy through meditation, releasing stale and old energy and generating new more beneficial, more inlined vibrational energy on a daily basis. Learn who you are, learn to be more you and come to the world with 'more' for the greater good of all those you come in to contact with. 
 
 'Easier said than done', I hear you and your fears whisper. However, you can achieve your sweet spot, your 'bliss'. It will take effort at first but you will reap the rewards.
 
@@ -33,7 +33,7 @@ So how to start:
 
 Sitting comfortably with your eye closed in your designated quiet space with your preference of floor or chair. Close your eyes and just focus on your breath. Don't over complicate anything. Simply breath in and out! (Even if you are bed bound, you still have your mind and you can do this from your bed too)!
 
-Use a Mantra or if that's not your thing find an Affirmation that works for you. 
+Use a Mantra, if that's not your thing find an Affirmation that works for you. 
 
 You can try these lovely Mantras and Affirmations:
 
@@ -41,13 +41,13 @@ Prajnanam brahma - **The universal Spirit is pure wisdom**
 
 Moksha - **I am emotionally free** 
 
-An Affirmation could be: **I feel free to be me** if Mantras don't sit well with you. 
+An Affirmation could be: **I feel free to be me**
 
-I like to make affirmations up in the moment by tuning in to what I'm feeling or what I'm struggling with and what I need to remind myself of if my energy is feeling a little off balance. You will find your own way with what works for you. I have used affirmations from books and from Yoga practices form other yogis that work really well too. Have some fun to find out what resinates with you. 
+I like to make affirmations up in the moment by tuning into what I'm feeling or what I'm struggling with and what I need to remind myself of if my energy is feeling a little off balance. You will find your own way with what works for you. I have used affirmations from books and from Yoga practices form other yogis that work really well too. Have some fun to find out what resinates with you. 
 
-On the days I don't want to think too much I follow a Mantra that I can just repeat with no specific meaning but more of a vibrational focus that the sound produces. So using 'OM' - THE HYMN OF THE UNIVERSE, either out loud or internally. It can really bring you to stillness and help connect you back to your internal compass if you feel a little lost, stressed or disconnected to your own essence and balance. 
+On the days I don't want to think too much, I follow a Mantra that I can just repeat with no specific meaning but more of a vibrational focus that the sound produces. So using 'OM' - THE HYMN OF THE UNIVERSE, either out loud or internally. It can really bring you to stillness and help connect you back to your internal compass if you feel a little lost, stressed or disconnected to your own essence and balance. 
 
-Now just 'be with yourself' with no distractions and take it from there! That's how you start.
+Now just 'be with yourself' with no distractions and take it from there! Five minutes will be fine the first time you try, then build on it. That's how you start.
 
 **"It all has to come from inside, though, I guess." - Jimi Hendrix** 
 
