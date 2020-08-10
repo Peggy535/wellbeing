@@ -5,13 +5,11 @@ image: /static/uploads/5368aeba-630f-410a-9e88-bf6a45279aa8.jpeg
 tags:
   - All
   - Meditation
-  - mantra
-  - mindfulness
-  - wellbeing
-  - raise your vibration
+  - Mantra
+  - Mindfulness
+  - Wellbeing
+  - Raiseyourvibration
 ---
-
-
 ***"A human being is a part of the whole, called by us 'Universe', a part limited in time and space. he experiences himself, his thoughts and feelings, as something separated from the rest, a kind of optical delusion of his consciousness. This delusion is a kind of prison for us, restricting us to our personal desires and to affection for a few persons nearest to us. Our task must be to free ourselves from this prison by widening our circle of compassion to embrace all living creatures and the whole of nature in its beauty".*** 
 
 ***\- ALBERT EINSTEIN***
