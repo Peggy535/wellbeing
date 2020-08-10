@@ -8,7 +8,7 @@ tags:
   - Smoking
   - Hypnosis
 ---
-Just 5464 months before his Summer Wedding, my Brother approached me about my hypnotherapy sessions and asked if I would help him to 
+Just months before his Summer Wedding, my Brother approached me about my hypnotherapy sessions and asked if I would help him to 
 quit smoking. He didn’t really have much knowledge about hypnotherapy and the curative more holistic approach that I take with 
 my practice.
 
