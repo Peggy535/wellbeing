@@ -1,13 +1,17 @@
 ---
-title: 'Online Hypnotherapy success - how you can stop smoking'
-date: '2020-05-01'
-tags: ['All', 'Addiction', 'Smoking', 'Hypnosis']
-image: 'https://res.cloudinary.com/peggy-co/image/upload/v1596638480/Well%20Being/brothers_story.min_svuotx.jpg'
+title: Online Hypnotherapy success - how you can stop smoking
+date: 2020-05-01
+image: https://res.cloudinary.com/peggy-co/image/upload/v1596638480/Well%20Being/brothers_story.min_svuotx.jpg
+tags:
+  - All
+  - Addiction
+  - Smoking
+  - Hypnosis
 ---
-Just months before his Summer Wedding, my Brother approached me about my hypnotherapy sessions and asked if I would help him to 
+Just 5464 months before his Summer Wedding, my Brother approached me about my hypnotherapy sessions and asked if I would help him to 
 quit smoking. He didn’t really have much knowledge about hypnotherapy and the curative more holistic approach that I take with 
 my practice.
- 
+
 Honestly, I was a little apprehensive to treat my own brother and wondered if he would take it seriously enough, and be open 
 enough to the treatment, for it to be everything he was wishing for. Also, I was living in Bahrain and he was living in the UK, 
 so it would all be done ONLINE!!! and thousands of miles away!
@@ -93,7 +97,6 @@ Hypnotherapy is used for achieving amazing results in any area of your life you 
 
 Please don’t THINK you have to have all the answers, KNOW you already have them -  it’s bringing them to the service through hypnotherapy and 
 past life regression that will bring clarity to what your inner self and soul already knows. Take the leap - it’s so very worth it!
-
 
 Please feel free to reach out on my contact page.
 
