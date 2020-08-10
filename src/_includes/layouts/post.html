@@ -23,9 +23,10 @@
     <article>
         {% include "partials/page-header.html" %}
         <div class="blogContent">
-            {% include "partials/share.html" %}
+            <a class="twitter-share-button" href="https://twitter.com/intent/tweet">Tweet</a>
+            <a class="twitter-follow-button"href="hhttps://twitter.com/hodgson_justine" data-size="small">Follow@hodgson_justine</a>
+            <a class="pinterest-link" href="https://www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark"></a>
             {{ content | safe }}
         </div>
     </article>
-
 {% endblock %}
