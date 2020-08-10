@@ -9,6 +9,8 @@ tags:
   - Mindfulness
   - Wellbeing
   - Raiseyourvibration
+  - Fightorflight
+  - Stressrelief
 ---
 ***"A human being is a part of the whole, called by us 'Universe', a part limited in time and space. he experiences himself, his thoughts and feelings, as something separated from the rest, a kind of optical delusion of his consciousness. This delusion is a kind of prison for us, restricting us to our personal desires and to affection for a few persons nearest to us. Our task must be to free ourselves from this prison by widening our circle of compassion to embrace all living creatures and the whole of nature in its beauty".*** 
 
@@ -34,7 +36,7 @@ Find a teacher (perhaps me) who can talk you through the basics and get some sou
 
 So how to start:
 
-Sitting comfortably with your eye closed in your designated quiet space with your preference of floor or chair. Close your eyes and just focus on your breath. Don't over complicate anything. Simply breath in and out! (Even if you are bed bound, you still have your mind and you can do this from your bed too)!
+Sitting comfortably with your eyes closed in your designated quiet space with your preference of floor or chair. Close your eyes and just focus on your breath. Don't over complicate anything. Simply breath in and out! (Even if you are bed bound, you still have your mind and you can do this from your bed too)!
 
 Use a Mantra, if that's not your thing find an Affirmation that works for you. 
 
