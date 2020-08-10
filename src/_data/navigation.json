@@ -31,14 +31,6 @@
         {
             "text": "Blog",
             "url": "/blog/"
-        },
-        {
-            "text": "Admin",
-            "url": "/admin/"
-        },
-        {
-            "text": "Web Design",
-            "url": "/web-design/"
         }
     ]
 }
