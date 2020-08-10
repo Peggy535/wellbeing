@@ -1,5 +1,5 @@
 ---
-title: Meditation  - What's it all about?
+title: Meditation, what's it all about?
 date: 2020-08-08T14:21:14.803Z
 image: /static/uploads/5368aeba-630f-410a-9e88-bf6a45279aa8.jpeg
 tags:
