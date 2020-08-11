@@ -1,4 +1,7 @@
-User-agent: *
-Allow: /
+User-agent:  Googlebot
+Allow:  *
+
+User-agent:   Twitterbot
+Allow: *
 
 Sitemap: https://www.justinehodgsonhypnotherapy.com/sitemap.xml
