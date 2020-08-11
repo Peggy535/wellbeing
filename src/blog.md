@@ -8,5 +8,6 @@ permalink: 'blog{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber
 paginationPrevText: 'Newer posts'
 paginationNextText: 'Older posts'
 paginationAnchor: '#post-list'
+metaDesc: 'Real life case studies and articles surrounding the use, and success of the therapies offered at JH. See how they can literally help you overcome any obstacle.'
 ---
-A summary of blog content here....
+Real life case studies and articles surrounding the use, and success of the therapies offered at JH. See how they can literally help you overcome any obstacle.
