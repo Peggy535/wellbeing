@@ -802,9 +802,10 @@ button#myBtn {
 p#tags-desc {
     font-size: var(--step--2);
 }
-.pinterest-link {
-    position: static;
-    top: 0;
+.add-Button {
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
 }
 ul.tags-list > li {
     font-size: var(--step--1);
