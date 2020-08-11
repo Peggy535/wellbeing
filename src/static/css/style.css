@@ -803,9 +803,9 @@ p#tags-desc {
     font-size: var(--step--2);
 }
 .add-button {
+    border-radius: .5rem;
     padding: 2rem 2rem;
-    background-color: var(--persimmon);
-    color: var(--white);
+    cursor:  pointer;
 }
 ul.tags-list > li {
     font-size: var(--step--1);
