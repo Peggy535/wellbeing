@@ -802,10 +802,10 @@ button#myBtn {
 p#tags-desc {
     font-size: var(--step--2);
 }
-.add-Button {
-    position: absolute;
-    bottom: 2rem;
-    left: 2rem;
+.add-button {
+    padding: 2rem 2rem;
+    background-color: var(--persimmon);
+    color: var(--white);
 }
 ul.tags-list > li {
     font-size: var(--step--1);
