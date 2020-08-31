@@ -41,7 +41,7 @@ My internal compass has brought me along a very wide and varied road, as I look 
 
 What I have noticed over the years is that looking outside myself and not listening to my guidance system would always take me down the wrong road, or it took me longer to get to my destination and was more often than not a less pleasant journey than it could have been. But there is the other side of this, the side where all mistakes are turned into lessons and as uncomfortable as it is for me to write those words, it’s true.
 
-Some things are just Karmic cycles that need to be broken or a lesson you really need to learn in order for you to get closer to who you really are. I'm talking about the ‘YOU’ who, when all the layers of old programmes and the way you have been taught about the world, that version of ‘YOU’ stuck inside screaming to come out and sometimes roaming endlessly and wondering why you feel so very uncomfortable in your own skin. Perhaps in environments that just aren’t bringing out your own true essence enough for you to feel confident to be that fabulous spirit that you know is in there somewhere. That YOU, finds more balance and contentment in your direction in this current life.
+Some things are just Karmic cycles that need to be broken or a lesson you really need to learn in order for you to get closer to who you really are. I'm talking about the ‘YOU’ who, when all the layers of old programmes and the way you have been taught about the world, that version of ‘YOU’ stuck inside screaming to come out and sometimes roaming endlessly and wondering why you feel so very uncomfortable in your own skin. Perhaps in environments that just aren’t bringing out your own true essence enough for you to feel confident to be that fabulous spirit that you know is in there somewhere. That YOU, who finds more balance and contentment in your direction in this current life.
 
 I’m enjoy finding the Magick in each individual who comes to me to regress, whether that be in this life to release grief, anger or heart break the results are so wonderful. Being playful with words and using the word ‘magical’ when ever I can get a way with it, ‘with a sparkle in my eyes and a warmth in my heart’ is so rewarding. I love the open minded souls who seek me out to find out more about their own story/stories and unfold the mysteries they hold within their subconscious/superconscious. Finding a love of the written and spoken word at this stage of my life and recognising the energy and intent behind words, basically vibrations of communication between one human to another. Now that’s priceless!
 
@@ -50,8 +50,6 @@ We are all so very intuitive and when we stop still to really look inwards we st
 ‘YOU’ and I really do mean, ‘YOU’ hold everything in your hands for change! That’s individually and collectively as human beings, if only we could all get on the same page and dump the bullshit and judgments. Love and truth will always show up in any given situation. The question is do you want the truth and do you feel worthy of love.
 
 The answer should be Abso\*\*\*\*inglutley! Every time.
-
-*Reach out via my website if you would like to discuss booking in for your own past life regression session.*
 
 JH
 
