@@ -4,6 +4,18 @@ date: 2020-08-31T18:47:31.647Z
 image: /static/uploads/7a4e15cd-02f9-42ac-8cf4-46a674d993c7_1_201_a.jpeg
 tags:
   - All
+  - regression
+  - therapy
+  - hypnotherapy
+  - past life
+  - duality
+  - removing blocks
+  - karmic cycles
+  - healing
+  - progress
+  - wisdom
+  - energy
+  - ""
 ---
 **You gave your life to become the person you are right now. Was it worth it?**
 
