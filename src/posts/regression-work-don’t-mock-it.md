@@ -1,5 +1,5 @@
 ---
-title: REGRESSION WORK - DON’T MOCK IT
+title: REGRESSION WORK - DON''T MOCK IT!
 date: 2020-08-31T18:47:31.647Z
 image: /static/uploads/7a4e15cd-02f9-42ac-8cf4-46a674d993c7_1_201_a.jpeg
 tags:
