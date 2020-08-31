@@ -3,6 +3,14 @@ const dateFilter = require('./src/filters/date-filter.js');
 const w3DateFilter = require('./src/filters/w3-date-filter.js');
 
 module.exports = config => {
+    // Universal slug filter strips unsafe chars from URLs
+    config.addFilter("slugify", function(str) {
+        return slugify(str, {
+        lower: true,
+        replacement: "-",
+        remove: /[*+~.·,()'"`´%!?¿:@]/g
+        });
+    });
     config.addPassthroughCopy('./src/static/');
     config.addPassthroughCopy("favicon.ico");
     config.addPassthroughCopy("admin");
