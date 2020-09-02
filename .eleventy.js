@@ -1,23 +1,17 @@
 // Filters
+const pluginBetterSlug = require("@borisschapira/eleventy-plugin-better-slug");
 const dateFilter = require('./src/filters/date-filter.js');
 const w3DateFilter = require('./src/filters/w3-date-filter.js');
-const slugify = require('slugify');
 
 module.exports = config => {
-    // Universal slug filter strips unsafe chars from URLs
-    config.addFilter("slugify", function(str) {
-        return slugify(str, {
-        lower: true,
-        replacement: "-",
-        remove: /[*+~.·,()'"`´%!?¿:@]/g
-        });
-    });
+    config.addPlugin(pluginBetterSlug);
     config.addPassthroughCopy('./src/static/');
     config.addPassthroughCopy("favicon.ico");
     config.addPassthroughCopy("admin");
     config.addPassthroughCopy('manifest.json');
     config.addPassthroughCopy('sw.js');
     // Add filters
+    // config.addPlugin(pluginBetterSlug);
     config.addFilter('dateFilter', dateFilter);
     config.addFilter('w3DateFilter', w3DateFilter);
     // Returns a collection of blog posts in reverse date order
