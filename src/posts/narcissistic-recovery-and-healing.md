@@ -4,11 +4,10 @@ date: 2020-10-20T16:09:41.062Z
 image: /static/uploads/d6a724a1-22db-481f-9234-219ee1cd8b3c_1_201_a.jpeg
 tags:
   - All
-  - self-love
+  - self love
   - narcissistic
   - recovery
   - healing
-  - hypnosis
   - self-care
   - hope
   - faith
