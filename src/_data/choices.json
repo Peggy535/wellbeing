@@ -12,7 +12,7 @@
             "image":"/static/images/booking-session.min.svg",
             "title": "CBT, Hypnotherapy & Wellbeing coaching",
             "description": "Whichever therapies you decide upon, book your session here. All sessions are conducted online using Zoom in the comfort of your ownhome.",
-            "price": "£55 per session",
+            "price": "£95 per session",
             "link":"#calendly link here",
             "calendly": "Calendly.initPopupWidget({url: 'https://calendly.com/justinehodgsonhypnotherapy/60min?primary_color=f88209'});return false;"
         },
@@ -20,7 +20,7 @@
             "image":"/static/images/booking-yin.min.svg",
             "title": "Book 1-to-1 Online Yin Yoga Therapy",
             "description": "Book your 1-to-1 personal Yin Yoga session. All sessions are conducted on Zoom in the comfort of your own home.",
-            "price": "£26 per session",
+            "price": "£50 per session",
             "link":"#calendly link here",
             "calendly": "Calendly.initPopupWidget({url: 'https://calendly.com/justinehodgsonhypnotherapy/private-1-to-1-yoga?primary_color=f88209'});return false;"
         },
