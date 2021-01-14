@@ -20,7 +20,7 @@
             "image":"/static/images/booking-yin.min.svg",
             "title": "Book 1-to-1 Online Yin Yoga Therapy",
             "description": "Book your 1-to-1 personal Yin Yoga session. All sessions are conducted on Zoom in the comfort of your own home.",
-            "price": "£50 per session",
+            "price": "£55 per session",
             "link":"#calendly link here",
             "calendly": "Calendly.initPopupWidget({url: 'https://calendly.com/justinehodgsonhypnotherapy/private-1-to-1-yoga?primary_color=f88209'});return false;"
         },
