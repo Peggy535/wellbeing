@@ -10,8 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@11ty/eleventy": "^0.11.0",
+    "@11ty/eleventy": "^0.11.1",
     "@borisschapira/eleventy-plugin-better-slug": "^1.0.1",
-    "moment": "^2.27.0"
+    "moment": "^2.29.1"
   }
 }
