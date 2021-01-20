@@ -1,6 +1,7 @@
 ---
 title: "IT'S A FULL TIME JOB - LONG COVID SELF CARE AND RECOVERY "
 date: 2021-01-20T15:44:15.807Z
+image: /static/uploads/long-covid.jpg
 tags:
   - All
 ---
