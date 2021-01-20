@@ -3,7 +3,19 @@ title: "It's a full time job - Long Covid Self Care & Recovery "
 date: 2021-01-20T15:44:15.807Z
 image: /static/uploads/long-covid.jpg
 tags:
-  - All
+  - longcovid
+  - selfcare
+  - selfhypnosis
+  - hypnotherapy
+  - recovery
+  - antihistamine
+  - stressrelief
+  - mediation
+  - meridians
+  - vagusnerve
+  - nervoussystem
+  - selflove
+  - ""
 ---
 
 
