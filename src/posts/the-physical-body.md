@@ -3,24 +3,7 @@ title: "The Physical Body "
 date: 2021-02-02T23:07:55.211Z
 image: /static/uploads/barre-me-2.jpg
 tags:
-  - "All #Meditation #mantra #mindfulness #wellbeing #raiseyourvibration"
-  - "#yin"
-  - "#yoga"
-  - "#hypnosis"
-  - "#subconsciousmind"
-  - ""
-  - "#healing"
-  - "#chronicfatigue"
-  - kundalini
-  - "#physicalmovement"
-  - anxiety
-  - stressrelief
-  - chronicfatigue
-  - grace
-  - intuition
-  - radiance
-  - fearless
-  - ""
+  - All
 ---
 ***It is our radiance, our flow, our grace, our intuition, our compassion, and our love that create the magnificence of who we are.*** 
 
