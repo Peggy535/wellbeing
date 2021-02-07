@@ -1,5 +1,5 @@
 ---
-title: Astral Plane
+title: The Astral Plane
 date: 2021-02-03T00:18:13.602Z
 image: /static/uploads/david-boca-5ltxg0aqkia-unsplash.jpg
 tags:
