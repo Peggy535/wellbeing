@@ -1,7 +1,7 @@
 ---
 title: "The Physical Body "
 date: 2021-02-02T23:07:55.211Z
-image: /static/uploads/barre-me-2.jpg
+image: /static/uploads/david-hofmann-lrilcxo3xce-unsplash.jpg
 tags:
   - All
 ---
