@@ -117,7 +117,7 @@
     --celadon: #a7e8bd;
     --black: #000000;
     --white: #ffffff;
-    --persimmon: #b76e79;
+    --rosegold: #b76e79;
     --hover: #A4515D;
     --cbt: #A41338;
     --hypno: #49DCB1;
@@ -201,7 +201,7 @@ a:hover {
     color: var(--black);
 }
 .text-orange{
-    color: var(--persimmon);
+    color: var(--rosegold);
 }
 /*************************************/
 /* Menu specific */
@@ -221,7 +221,7 @@ a:hover {
     top: 0; /* Stay at the top */
     right: 0;
     background-color: var(--white);
-    color: var(--persimmon); /* Black*/
+    color: var(--rosegold); /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 4rem; /* Place content 60px from the top */
     -webkit-transition: 0.2s;
@@ -233,7 +233,7 @@ a:hover {
     padding: 1rem 2rem;
     text-decoration: none;
     font-size: var(--step-1);
-    color: var(--persimmon);
+    color: var(--rosegold);
     display: block;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
@@ -312,7 +312,7 @@ video#landing {
     -ms-grid-column: 5;
     -ms-grid-column-span: 3;
     grid-area: statement;
-    color: var(--persimmon);
+    color: var(--rosegold);
     padding-right: 1em;
     -ms-grid-row-align: center;
         align-self: center;
@@ -344,7 +344,7 @@ video#landing {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     grid-area: block;
-    background: var(--persimmon);
+    background: var(--rosegold);
     color: var(--white);
     opacity: 0.8;
     padding: 1rem 1rem;
@@ -403,7 +403,7 @@ video#landing {
 .landingTitle {
     padding: 1em 1em;
     background: var(--white);
-    color: var(--persimmon);
+    color: var(--rosegold);
 }
 .landingTitle h3,
 .servicesHeading h2 {
@@ -426,7 +426,7 @@ video#landing {
     height: auto;
     grid-area: blockServices;
     padding: 2rem 4rem;
-    background: var(--persimmon);
+    background: var(--rosegold);
     color: var(--white);
     line-height: 1.5;
 }
@@ -537,7 +537,7 @@ video#landing {
     grid-gap: 20px;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
-    color: var(--persimmon);
+    color: var(--rosegold);
     padding: 1em 2em;
 }
 /*********************************/
@@ -583,7 +583,7 @@ video#landing {
     margin: .5rem;
     color: var(--white);
     text-decoration: none;
-    background-color: var(--persimmon);
+    background-color: var(--rosegold);
     border-radius: .25rem;
     text-align: center;
     display: inline-block;
@@ -593,7 +593,7 @@ video#landing {
 }
 .therapies > ul > li > a:hover {
     background-color: var(--white);
-    color: var(--persimmon);
+    color: var(--rosegold);
 }
 /*********************************/
 /*Specific Therapies Pages */
@@ -778,7 +778,7 @@ button#myBtn {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     grid-area: blogTitle;
-    background-color: var(--persimmon);
+    background-color: var(--rosegold);
 }
 .blogTitle h3 {
     padding: 3rem 1rem;
@@ -799,7 +799,7 @@ button#myBtn {
     grid-area: blogSummary;
 }
 .page-header__summary {
-    color: var(--persimmon);
+    color: var(--rosegold);
     padding-left: .5rem;
 }
 p#tags-desc {
