@@ -1,7 +1,6 @@
 ---
 title: 'How you can have the self-confidence you wish'
 date: '2019-09-01'
-tags: ['Anxiety', 'Phobias', 'Fear', 'Self-Confidence', 'Hypnosis']
 image: 'https://res.cloudinary.com/peggy-co/image/upload/v1596638480/Well%20Being/sept-blog.min_yinlfx.jpg'
 ---
 From a personal view point and that of my clients, setting goals and combining self hypnosis, has more than often achieved more in a matter of weeks than it is possible in a couple of years. 

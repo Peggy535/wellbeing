@@ -2,8 +2,6 @@
 title: "The Physical Body "
 date: 2021-02-02T23:07:55.211Z
 image: /static/uploads/david-hofmann-lrilcxo3xce-unsplash.jpg
-tags:
-  - All
 ---
 ***It is our radiance, our flow, our grace, our intuition, our compassion, and our love that create the magnificence of who we are.*** 
 

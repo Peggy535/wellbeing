@@ -1,7 +1,6 @@
 ---
 title: 'Treating IBS (Irritable Bowel Syndrome) with Hypnotherapy'
 date: '2020-01-01'
-tags: ['IBS', 'Hypnosis', 'Online Hypnotherapy']
 image: 'https://res.cloudinary.com/peggy-co/image/upload/v1594461599/12%20Steps%20The%20Curative%20Hypno/ibs_rtka91.jpg'
 ---
 If you are reading this page then it is likely that you or someone you know suffers from IBS – Irritable Bowel Syndrome – so you probably know most of the facts about this condition:

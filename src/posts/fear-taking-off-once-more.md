@@ -1,7 +1,6 @@
 ---
 title: 'Fear of flying and how it can be overcome'
 date: '2019-06-01'
-tags: ['Anxiety', 'Phobias', 'Fear', 'Fear of flying']
 image: 'https://res.cloudinary.com/peggy-co/image/upload/v1596638480/Well%20Being/clouds_min_r6upu3.jpg'
 ---
 Something a majority of us take for granted is the ease of flying to various destinations throughout the world. Be it for that one big family Annual Holiday, visiting loved ones who live abroad or those work commitments, even just for the shear exhilaration of exploring new places. Many of us think nothing of walking onto a plane with no fear or anxiety at all. We look forward to take off and a chance to catch up on a good book, new film we’ve been itching to watch in peace or just catch up on some sleep and an excuse to do nothing and relax. Perfect... right?  

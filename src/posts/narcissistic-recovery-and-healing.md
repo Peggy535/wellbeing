@@ -2,18 +2,6 @@
 title: Narcissistic Recovery and Healing - Stepping out from the Shadows
 date: 2020-10-20T16:09:41.062Z
 image: /static/uploads/d6a724a1-22db-481f-9234-219ee1cd8b3c_1_201_a.jpeg
-tags:
-  - All
-  - self love
-  - narcissistic
-  - recovery
-  - healing
-  - self-care
-  - hope
-  - faith
-  - love
-  - personal power
-  - healthy-boundaries
 ---
 As we move into another potential lock down. My thoughts and prayers go to all those living with narcissistic partners. I know how unrealistic it is to seek help if your phone and other devices have been tapped or just monitored. An opportunity will show up and even though you may have to walk away with nothing you walk away with everything. You, your sanity and your freedom to find yourself again and start rebuilding literally from the ground up.\
 \

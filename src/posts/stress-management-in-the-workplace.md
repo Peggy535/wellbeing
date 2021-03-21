@@ -1,7 +1,6 @@
 ---
 title: 'Stress Management in the workplace post lock down.'
 date: '2020-04-01'
-tags: ['CBT', 'Hypnosis', 'Stress', 'Anxiety', 'Workplace', 'Online Hypnotherapy', 'CBT']
 image: 'https://res.cloudinary.com/peggy-co/image/upload/v1596638750/Well%20Being/stress_zitu6m.jpg'
 ---
 In the UK alone, as many as one in five people suffer from high levels of work-related stress. These figures could be interpreted as approximately 6.7 million working days lost each year at a massive cost to industry. There is an ever-increasing need for the Advanced Corporate Stress Management Consultant to identify the high levels of stress and implement appropriate strategies to counter it.
