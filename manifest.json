@@ -4,8 +4,8 @@
     "description": "Web App for JH | Online therapies including CBT, Hypnotherapy, Yin Yoga and Mental Health & Wellbeing.",
     "start_url": "/index.html",
     "display": "standalone",
-    "background_color": "rgb(229, 88, 18)",
-    "theme_color": "rgb(229, 88, 18)", 
+    "background_color": "rgb(183, 110, 121)",
+    "theme_color": "rgb(183, 110, 121)", 
     "orientation": "portrait-primary",
     "categories": ["business", "health", "lifestyle"],
     "icons": [

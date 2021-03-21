@@ -13,7 +13,6 @@ const assets = [
   '/hypnotherapy/*',
   '/posts/*',
   '/services/*',
-  '/tags/*',
   '/wellbeing/*',
   '/yinyoga/*',
 ];
