@@ -17,7 +17,7 @@ My so called failures are still things I am proud of, proud for trying in the fi
 
 My take on 'BS' is this, everyone has 'BS' they need to bin, but it just lays around waiting to be picked up and chucked away by those who avoid the truth.  'BS' dotted around in your life like the dog shit you see lazy dog owners not picking up after themselves. If only we all picked up our own dog mess, 'so to speak', then no one else would be left to deal with it. So my point is, own your shit and deal with it, then bin it and move on. That way you don't take it into your next relationship, friendship or job. 
 
-So let’s start cleaning up and bagging our own shit, take ownership, embrace the not so good and love yourself for it, the imperfections that probably aren’t even imperfections just rubbish you have come to belief due to some nonsense you have picked up that probably wasn’t even yours to deal with in the first place.
+So let’s start cleaning up and bagging our own shit, take ownership, embrace the not so good and love yourself for it, the imperfections that probably aren’t even imperfections just rubbish you have come to believe due to some nonsense you have picked up that probably wasn’t even yours to deal with in the first place.
 
 I have a  personal quote from one of my old online projects from past years, 'Beautiful You".I took the website down during my time in a narcissist relationship, I was so annoyed about that mistake but I took that mistake and built a better future and business idea. Out of trauma I grew something new and even more authentic.
 
@@ -29,9 +29,9 @@ People who have kindness and a desire to do good and look for ways to live their
 
 Let's also address briefly 'BS' ideas about love. Love comes in all disguises, don’t be afraid to love and match the love needed for each unique friendship or relationship you have. It’s good to love, don’t be afraid to give love and receive love. The new way forward is to admit that you are an all loving being and that your acceptance of all of you in turn, allows you to understand and accept others who are on the same journey at this moment in time, in this life time and on this planet right now with you. 
 
-It's 'BS' to belief that some people are emotionally unavailable, or unloveable, all just excuses to guard against fear of rejection and getting hurt. 
+It's 'BS' to believe that some people are emotionally unavailable, or unloveable. It's all just excuses to guard against fear of rejection and getting hurt. 
 
-Go back for people if you have had to leave them behind for a while and go back when you are ready to offer their chair back to them (time out is all it takes sometimes for friendships to align again at the right time) to join you once more at your table of wise and beautiful souls, those who can walk forwards with less baggage because they have learnt to deal with their own BS.
+Go back for people if you have had to leave them behind for a while and go back when you are ready to offer their chair back to them (time out is all it takes sometimes for friendships to align again at the right time) to join you once more at your table of wise and beautiful souls. Gather those who can walk forwards with less baggage because they have learnt to deal with their own BS.
 
 Be patient, be kind and embrace all that you are and stop convincing yourself otherwise. Life is beautiful it all depends on how you are looking at it. EMBRACE ALL OF YOU, pick up your own BS, don't project your BS on others and most importantly clear it up so no one else has to do it for you. There is no shame or embarrassment in getting things wrong, not owning up to it, to yourself WILL hold you back though.
 
