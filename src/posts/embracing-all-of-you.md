@@ -5,7 +5,7 @@ image: /static/uploads/img_0725.jpg
 ---
 **Embrace all of you without shame or embarrassment - including the BS!** 
 
-By (BS) I clearly mean bullshit, thinking you're a failure, embarrassed because you made mistakes, or you are not where you thought you would/should be at a certain stage in your life. Being mean to yourself with negative thoughts of being unworthy of all the good stuff this life has to offer - 'BS'.
+By 'BS' I clearly mean bullshit, thinking you're a failure, embarrassed because you made mistakes, or you are not where you thought you would/should be at a certain stage in your life. Being mean to yourself with negative thoughts of being unworthy of all the good stuff this life has to offer - 'BS'.
 
 I truly mean this, embrace all of your mistakes or lessons, all of your almost but no cigar moments! The whole wonderful and messy lot. Own it and get rid of the shame or embarrassment connected with it. 
 
